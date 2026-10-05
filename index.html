@@ -1,0 +1,5448 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Ты — новый HR-директор GrowTech. Прими решения за первый месяц и посмотри, к каким последствиям они приведут.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="HR-симулятор GrowTech">
+<meta property="og:description" content="Ты — новый HR-директор GrowTech. Прими решения за первый месяц и посмотри, к каким последствиям они приведут.">
+<title>HR-симулятор GrowTech</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap">
+<style>
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: Nunito, system-ui, sans-serif;
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.inset-0 {
+  inset: 0px;
+}
+
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+
+.inset-x-3 {
+  left: 0.75rem;
+  right: 0.75rem;
+}
+
+.-bottom-1 {
+  bottom: -0.25rem;
+}
+
+.-left-5 {
+  left: -1.25rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-3 {
+  bottom: 0.75rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.bottom-full {
+  bottom: 100%;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.left-\[7px\] {
+  left: 7px;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.right-6 {
+  right: 1.5rem;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-14 {
+  top: 3.5rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.top-20 {
+  top: 5rem;
+}
+
+.top-24 {
+  top: 6rem;
+}
+
+.top-\[40\%\] {
+  top: 40%;
+}
+
+.top-\[5px\] {
+  top: 5px;
+}
+
+.top-full {
+  top: 100%;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-\[-2px\] {
+  margin-bottom: -2px;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.mt-1\.5 {
+  margin-top: 0.375rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-\[1px\] {
+  margin-top: 1px;
+}
+
+.box-content {
+  box-sizing: content-box;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-1\.5 {
+  height: 0.375rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-14 {
+  height: 3.5rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-2\.5 {
+  height: 0.625rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-\[72px\] {
+  height: 72px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.max-h-\[72dvh\] {
+  max-height: 72dvh;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-2\.5 {
+  width: 0.625rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-\[220px\] {
+  width: 220px;
+}
+
+.w-\[260px\] {
+  width: 260px;
+}
+
+.w-\[2px\] {
+  width: 2px;
+}
+
+.w-\[calc\(100\%-32px\)\] {
+  width: calc(100% - 32px);
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.min-w-0 {
+  min-width: 0px;
+}
+
+.max-w-\[1080px\] {
+  max-width: 1080px;
+}
+
+.max-w-\[620px\] {
+  max-width: 620px;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.shrink-0 {
+  flex-shrink: 0;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-y-full {
+  --tw-translate-y: -100%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-baseline {
+  align-items: baseline;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-1\.5 {
+  gap: 0.375rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-x-2 {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
+.space-y-1\.5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.375rem * var(--tw-space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-\[28px\] {
+  border-radius: 28px;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-tl-sm {
+  border-top-left-radius: 0.125rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-amber-300\/20 {
+  border-color: rgb(252 211 77 / 0.2);
+}
+
+.border-amber-400\/50 {
+  border-color: rgb(251 191 36 / 0.5);
+}
+
+.border-blue-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(96 165 250 / var(--tw-border-opacity, 1));
+}
+
+.border-blue-400\/40 {
+  border-color: rgb(96 165 250 / 0.4);
+}
+
+.border-emerald-400\/50 {
+  border-color: rgb(52 211 153 / 0.5);
+}
+
+.border-red-400\/60 {
+  border-color: rgb(248 113 113 / 0.6);
+}
+
+.border-white\/10 {
+  border-color: rgb(255 255 255 / 0.1);
+}
+
+.bg-\[\#0b0f19\]\/60 {
+  background-color: rgb(11 15 25 / 0.6);
+}
+
+.bg-\[\#121826\]\/85 {
+  background-color: rgb(18 24 38 / 0.85);
+}
+
+.bg-\[\#121826\]\/90 {
+  background-color: rgb(18 24 38 / 0.9);
+}
+
+.bg-\[\#121826\]\/95 {
+  background-color: rgb(18 24 38 / 0.95);
+}
+
+.bg-\[\#151a24\]\/90 {
+  background-color: rgb(21 26 36 / 0.9);
+}
+
+.bg-amber-300\/10 {
+  background-color: rgb(252 211 77 / 0.1);
+}
+
+.bg-amber-300\/\[0\.06\] {
+  background-color: rgb(252 211 77 / 0.06);
+}
+
+.bg-amber-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 191 36 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-500\/10 {
+  background-color: rgb(59 130 246 / 0.1);
+}
+
+.bg-blue-500\/15 {
+  background-color: rgb(59 130 246 / 0.15);
+}
+
+.bg-blue-500\/20 {
+  background-color: rgb(59 130 246 / 0.2);
+}
+
+.bg-blue-600\/95 {
+  background-color: rgb(37 99 235 / 0.95);
+}
+
+.bg-emerald-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 211 153 / var(--tw-bg-opacity, 1));
+}
+
+.bg-emerald-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 185 129 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
+}
+
+.bg-slate-700\/90 {
+  background-color: rgb(51 65 85 / 0.9);
+}
+
+.bg-slate-800\/90 {
+  background-color: rgb(30 41 59 / 0.9);
+}
+
+.bg-slate-900\/95 {
+  background-color: rgb(15 23 42 / 0.95);
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white\/10 {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
+.bg-white\/5 {
+  background-color: rgb(255 255 255 / 0.05);
+}
+
+.bg-white\/\[0\.04\] {
+  background-color: rgb(255 255 255 / 0.04);
+}
+
+.bg-white\/\[0\.05\] {
+  background-color: rgb(255 255 255 / 0.05);
+}
+
+.bg-\[radial-gradient\(ellipse_at_center\2c \#1e2536_0\%\2c \#0d111b_80\%\)\] {
+  background-image: radial-gradient(ellipse at center,#1e2536 0%,#0d111b 80%);
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+}
+
+.from-blue-500 {
+  --tw-gradient-from: #3b82f6 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(59 130 246 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-sky-200 {
+  --tw-gradient-from: #bae6fd var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(186 230 253 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-indigo-600 {
+  --tw-gradient-to: #4f46e5 var(--tw-gradient-to-position);
+}
+
+.to-sky-100 {
+  --tw-gradient-to: #e0f2fe var(--tw-gradient-to-position);
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.px-1\.5 {
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-\[1px\] {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.py-\[3px\] {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.pb-2\.5 {
+  padding-bottom: 0.625rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
+}
+
+.pr-1\.5 {
+  padding-right: 0.375rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-sans {
+  font-family: Nunito, system-ui, sans-serif;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[13\.5px\] {
+  font-size: 13.5px;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
+}
+
+.text-\[14\.5px\] {
+  font-size: 14.5px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[17px\] {
+  font-size: 17px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-\[26px\] {
+  font-size: 26px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[34px\] {
+  font-size: 34px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[56px\] {
+  font-size: 56px;
+}
+
+.text-\[9px\] {
+  font-size: 9px;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tabular-nums {
+  --tw-numeric-spacing: tabular-nums;
+  font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.leading-\[1\.1\] {
+  line-height: 1.1;
+}
+
+.leading-\[72px\] {
+  line-height: 72px;
+}
+
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-snug {
+  line-height: 1.375;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.tracking-\[0\.14em\] {
+  letter-spacing: 0.14em;
+}
+
+.tracking-\[0\.16em\] {
+  letter-spacing: 0.16em;
+}
+
+.tracking-\[0\.18em\] {
+  letter-spacing: 0.18em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.text-amber-100 {
+  --tw-text-opacity: 1;
+  color: rgb(254 243 199 / var(--tw-text-opacity, 1));
+}
+
+.text-amber-200 {
+  --tw-text-opacity: 1;
+  color: rgb(253 230 138 / var(--tw-text-opacity, 1));
+}
+
+.text-amber-300 {
+  --tw-text-opacity: 1;
+  color: rgb(252 211 77 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-200 {
+  --tw-text-opacity: 1;
+  color: rgb(191 219 254 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-300 {
+  --tw-text-opacity: 1;
+  color: rgb(147 197 253 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-50 {
+  --tw-text-opacity: 1;
+  color: rgb(239 246 255 / var(--tw-text-opacity, 1));
+}
+
+.text-lime-300 {
+  --tw-text-opacity: 1;
+  color: rgb(190 242 100 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-100 {
+  --tw-text-opacity: 1;
+  color: rgb(241 245 249 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-200 {
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-300 {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity, 1));
+}
+
+.text-slate-800 {
+  --tw-text-opacity: 1;
+  color: rgb(30 41 59 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-white\/60 {
+  color: rgb(255 255 255 / 0.6);
+}
+
+.text-white\/70 {
+  color: rgb(255 255 255 / 0.7);
+}
+
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_0_1px_rgba\(96\2c 165\2c 250\2c \.6\)\2c 0_0_32px_rgba\(59\2c 130\2c 246\2c \.45\)\] {
+  --tw-shadow: 0 0 0 1px rgba(96,165,250,.6),0 0 32px rgba(59,130,246,.45);
+  --tw-shadow-colored: 0 0 0 1px var(--tw-shadow-color), 0 0 32px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_12px_rgba\(59\2c 130\2c 246\2c \.9\)\] {
+  --tw-shadow: 0 0 12px rgba(59,130,246,.9);
+  --tw-shadow-colored: 0 0 12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_14px_rgba\(16\2c 185\2c 129\2c \.8\)\] {
+  --tw-shadow: 0 0 14px rgba(16,185,129,.8);
+  --tw-shadow-colored: 0 0 14px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_14px_rgba\(239\2c 68\2c 68\2c \.9\)\] {
+  --tw-shadow: 0 0 14px rgba(239,68,68,.9);
+  --tw-shadow-colored: 0 0 14px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_0_14px_rgba\(59\2c 130\2c 246\2c \.6\)\] {
+  --tw-shadow: 0 0 14px rgba(59,130,246,.6);
+  --tw-shadow-colored: 0 0 14px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_12px_36px_rgba\(59\2c 130\2c 246\2c \.45\)\] {
+  --tw-shadow: 0 12px 36px rgba(59,130,246,.45);
+  --tw-shadow-colored: 0 12px 36px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_12px_40px_rgba\(59\2c 130\2c 246\2c \.5\)\] {
+  --tw-shadow: 0 12px 40px rgba(59,130,246,.5);
+  --tw-shadow-colored: 0 12px 40px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_30px_80px_rgba\(0\2c 0\2c 0\2c \.6\)\] {
+  --tw-shadow: 0 30px 80px rgba(0,0,0,.6);
+  --tw-shadow-colored: 0 30px 80px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_30px_90px_rgba\(0\2c 0\2c 0\2c \.7\)\] {
+  --tw-shadow: 0 30px 90px rgba(0,0,0,.7);
+  --tw-shadow-colored: 0 30px 90px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_40px_120px_rgba\(0\2c 0\2c 0\2c \.7\)\] {
+  --tw-shadow: 0 40px 120px rgba(0,0,0,.7);
+  --tw-shadow-colored: 0 40px 120px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-\[0_8px_24px_rgba\(59\2c 130\2c 246\2c \.45\)\] {
+  --tw-shadow: 0 8px 24px rgba(59,130,246,.45);
+  --tw-shadow-colored: 0 8px 24px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.ring-1 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.ring-2 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.ring-4 {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(4px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.ring-\[\#121826\] {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(18 24 38 / var(--tw-ring-opacity, 1));
+}
+
+.ring-blue-300\/60 {
+  --tw-ring-color: rgb(147 197 253 / 0.6);
+}
+
+.ring-white {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(255 255 255 / var(--tw-ring-opacity, 1));
+}
+
+.ring-white\/20 {
+  --tw-ring-color: rgb(255 255 255 / 0.2);
+}
+
+.drop-shadow-\[0_4px_16px_rgba\(0\2c 0\2c 0\2c \.6\)\] {
+  --tw-drop-shadow: drop-shadow(0 4px 16px rgba(0,0,0,.6));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.drop-shadow-\[0_4px_20px_rgba\(0\2c 0\2c 0\2c \.7\)\] {
+  --tw-drop-shadow: drop-shadow(0 4px 20px rgba(0,0,0,.7));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.backdrop-blur {
+  --tw-backdrop-blur: blur(8px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-blur-\[6px\] {
+  --tw-backdrop-blur: blur(6px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.\[text-wrap\:balance\] {
+  text-wrap: balance;
+}
+
+/* The game deliberately commits to one dark look on every host theme */
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #0d111b;
+  color: #e2e8f0;
+  overflow: hidden;
+}
+
+/* character animation */
+
+svg g {
+  transform-box: fill-box;
+}
+
+@keyframes legA {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes legB {
+  0%, 100% {
+    transform: translateY(-3px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bob {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-1.5px);
+  }
+}
+
+@keyframes typing {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(1.2px);
+  }
+}
+
+@keyframes look {
+  0%, 82%, 100% {
+    transform: rotate(0deg);
+  }
+
+  88% {
+    transform: rotate(-6deg);
+  }
+
+  94% {
+    transform: rotate(5deg);
+  }
+}
+
+@keyframes breathe {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-0.6px);
+  }
+}
+
+.walking .leg-a {
+  animation: legA 0.36s infinite ease-in-out;
+}
+
+.walking .leg-b {
+  animation: legB 0.36s infinite ease-in-out;
+}
+
+.walking .body {
+  animation: bob 0.36s infinite ease-in-out;
+}
+
+.seated .arms {
+  animation: typing 0.45s infinite ease-in-out;
+}
+
+.seated .head {
+  animation: look 6s infinite ease-in-out;
+  transform-origin: 50% 90%;
+}
+
+.idle .body {
+  animation: breathe 2.4s infinite ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .walking .leg-a, .walking .leg-b, .walking .body, .seated .arms, .seated .head, .idle .body {
+    animation: none;
+  }
+}
+
+.hover\:border-blue-300\/60:hover {
+  border-color: rgb(147 197 253 / 0.6);
+}
+
+.hover\:bg-blue-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-white\/10:hover {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
+.hover\:bg-white\/\[0\.09\]:hover {
+  background-color: rgb(255 255 255 / 0.09);
+}
+
+.hover\:shadow-\[0_10px_30px_rgba\(0\2c 0\2c 0\2c \.35\)\]:hover {
+  --tw-shadow: 0 10px 30px rgba(0,0,0,.35);
+  --tw-shadow-colored: 0 10px 30px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.focus-visible\:outline:focus-visible {
+  outline-style: solid;
+}
+
+.focus-visible\:outline-2:focus-visible {
+  outline-width: 2px;
+}
+
+.focus-visible\:outline-blue-200:focus-visible {
+  outline-color: #bfdbfe;
+}
+
+.focus-visible\:outline-blue-300:focus-visible {
+  outline-color: #93c5fd;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.group:hover .group-hover\:bg-blue-500\/25 {
+  background-color: rgb(59 130 246 / 0.25);
+}
+
+@media (min-width: 640px) {
+  .sm\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
+  .sm\:bottom-6 {
+    bottom: 1.5rem;
+  }
+
+  .sm\:left-6 {
+    left: 1.5rem;
+  }
+
+  .sm\:right-auto {
+    right: auto;
+  }
+
+  .sm\:top-16 {
+    top: 4rem;
+  }
+
+  .sm\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .sm\:mt-1\.5 {
+    margin-top: 0.375rem;
+  }
+
+  .sm\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .sm\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .sm\:mt-7 {
+    margin-top: 1.75rem;
+  }
+
+  .sm\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:h-16 {
+    height: 4rem;
+  }
+
+  .sm\:h-9 {
+    height: 2.25rem;
+  }
+
+  .sm\:w-10 {
+    width: 2.5rem;
+  }
+
+  .sm\:w-9 {
+    width: 2.25rem;
+  }
+
+  .sm\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .sm\:w-\[360px\] {
+    width: 360px;
+  }
+
+  .sm\:w-\[calc\(100\%-48px\)\] {
+    width: calc(100% - 48px);
+  }
+
+  .sm\:w-auto {
+    width: auto;
+  }
+
+  .sm\:shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:items-stretch {
+    align-items: stretch;
+  }
+
+  .sm\:gap-0 {
+    gap: 0px;
+  }
+
+  .sm\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .sm\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
+  .sm\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .sm\:p-4 {
+    padding: 1rem;
+  }
+
+  .sm\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .sm\:p-7 {
+    padding: 1.75rem;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .sm\:text-\[15px\] {
+    font-size: 15px;
+  }
+
+  .sm\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .sm\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .sm\:text-\[32px\] {
+    font-size: 32px;
+  }
+
+  .sm\:text-\[38px\] {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:inset-x-auto {
+    left: auto;
+    right: auto;
+  }
+
+  .md\:bottom-5 {
+    bottom: 1.25rem;
+  }
+
+  .md\:right-5 {
+    right: 1.25rem;
+  }
+
+  .md\:top-20 {
+    top: 5rem;
+  }
+
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-\[min\(620px\2c 44vw\)\] {
+    width: min(620px, 44vw);
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/framer-motion@11.18.2/dist/framer-motion.js"></script>
+<script>
+"use strict";
+(() => {
+  var __create = Object.create;
+  var __defProp = Object.defineProperty;
+  var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+  var __getOwnPropNames = Object.getOwnPropertyNames;
+  var __getProtoOf = Object.getPrototypeOf;
+  var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __commonJS = (cb, mod) => function __require() {
+    return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+  };
+  var __copyProps = (to, from, except, desc) => {
+    if (from && typeof from === "object" || typeof from === "function") {
+      for (let key of __getOwnPropNames(from))
+        if (!__hasOwnProp.call(to, key) && key !== except)
+          __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+    }
+    return to;
+  };
+  var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+    // If the importer is in node compatibility mode or this is not an ESM
+    // file that has been converted to a CommonJS file using a Babel-
+    // compatible transform (i.e. "__esModule" has not been set), then set
+    // "default" to the CommonJS "module.exports" for node compatibility.
+    isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+    mod
+  ));
+
+  // umd:react-dom/client
+  var require_client = __commonJS({
+    "umd:react-dom/client"(exports, module) {
+      module.exports = window.ReactDOM;
+    }
+  });
+
+  // umd:framer-motion
+  var require_framer_motion = __commonJS({
+    "umd:framer-motion"(exports, module) {
+      module.exports = window.Motion;
+    }
+  });
+
+  // umd:react
+  var require_react = __commonJS({
+    "umd:react"(exports, module) {
+      module.exports = window.React;
+    }
+  });
+
+  // src/main.tsx
+  var import_client = __toESM(require_client(), 1);
+
+  // src/App.tsx
+  var import_framer_motion7 = __toESM(require_framer_motion(), 1);
+
+  // src/components/DialogPanel.tsx
+  var import_framer_motion2 = __toESM(require_framer_motion(), 1);
+
+  // node_modules/lucide-react/dist/esm/createLucideIcon.js
+  var import_react2 = __toESM(require_react());
+
+  // node_modules/lucide-react/dist/esm/shared/src/utils.js
+  var toKebabCase = (string) => string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
+  var mergeClasses = (...classes) => classes.filter((className, index, array) => {
+    return Boolean(className) && className.trim() !== "" && array.indexOf(className) === index;
+  }).join(" ").trim();
+
+  // node_modules/lucide-react/dist/esm/Icon.js
+  var import_react = __toESM(require_react());
+
+  // node_modules/lucide-react/dist/esm/defaultAttributes.js
+  var defaultAttributes = {
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    stroke: "currentColor",
+    strokeWidth: 2,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  };
+
+  // node_modules/lucide-react/dist/esm/Icon.js
+  var Icon = (0, import_react.forwardRef)(
+    ({
+      color = "currentColor",
+      size = 24,
+      strokeWidth = 2,
+      absoluteStrokeWidth,
+      className = "",
+      children,
+      iconNode,
+      ...rest
+    }, ref) => {
+      return (0, import_react.createElement)(
+        "svg",
+        {
+          ref,
+          ...defaultAttributes,
+          width: size,
+          height: size,
+          stroke: color,
+          strokeWidth: absoluteStrokeWidth ? Number(strokeWidth) * 24 / Number(size) : strokeWidth,
+          className: mergeClasses("lucide", className),
+          ...rest
+        },
+        [
+          ...iconNode.map(([tag, attrs]) => (0, import_react.createElement)(tag, attrs)),
+          ...Array.isArray(children) ? children : [children]
+        ]
+      );
+    }
+  );
+
+  // node_modules/lucide-react/dist/esm/createLucideIcon.js
+  var createLucideIcon = (iconName, iconNode) => {
+    const Component = (0, import_react2.forwardRef)(
+      ({ className, ...props }, ref) => (0, import_react2.createElement)(Icon, {
+        ref,
+        iconNode,
+        className: mergeClasses(`lucide-${toKebabCase(iconName)}`, className),
+        ...props
+      })
+    );
+    Component.displayName = `${iconName}`;
+    return Component;
+  };
+
+  // node_modules/lucide-react/dist/esm/icons/arrow-right.js
+  var ArrowRight = createLucideIcon("ArrowRight", [
+    ["path", { d: "M5 12h14", key: "1ays0h" }],
+    ["path", { d: "m12 5 7 7-7 7", key: "xquz4c" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/chevron-down.js
+  var ChevronDown = createLucideIcon("ChevronDown", [
+    ["path", { d: "m6 9 6 6 6-6", key: "qrunsl" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/clipboard-list.js
+  var ClipboardList = createLucideIcon("ClipboardList", [
+    ["rect", { width: "8", height: "4", x: "8", y: "2", rx: "1", ry: "1", key: "tgr4d6" }],
+    [
+      "path",
+      {
+        d: "M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2",
+        key: "116196"
+      }
+    ],
+    ["path", { d: "M12 11h4", key: "1jrz19" }],
+    ["path", { d: "M12 16h4", key: "n85exb" }],
+    ["path", { d: "M8 11h.01", key: "1dfujw" }],
+    ["path", { d: "M8 16h.01", key: "18s6g9" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/clock.js
+  var Clock = createLucideIcon("Clock", [
+    ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+    ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/door-open.js
+  var DoorOpen = createLucideIcon("DoorOpen", [
+    ["path", { d: "M13 4h3a2 2 0 0 1 2 2v14", key: "hrm0s9" }],
+    ["path", { d: "M2 20h3", key: "1gaodv" }],
+    ["path", { d: "M13 20h9", key: "s90cdi" }],
+    ["path", { d: "M10 12v.01", key: "vx6srw" }],
+    [
+      "path",
+      {
+        d: "M13 4.562v16.157a1 1 0 0 1-1.242.97L5 20V5.562a2 2 0 0 1 1.515-1.94l4-1A2 2 0 0 1 13 4.561Z",
+        key: "199qr4"
+      }
+    ]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/eye.js
+  var Eye = createLucideIcon("Eye", [
+    [
+      "path",
+      {
+        d: "M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0",
+        key: "1nclc0"
+      }
+    ],
+    ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/fast-forward.js
+  var FastForward = createLucideIcon("FastForward", [
+    ["polygon", { points: "13 19 22 12 13 5 13 19", key: "587y9g" }],
+    ["polygon", { points: "2 19 11 12 2 5 2 19", key: "3pweh0" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/graduation-cap.js
+  var GraduationCap = createLucideIcon("GraduationCap", [
+    [
+      "path",
+      {
+        d: "M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z",
+        key: "j76jl0"
+      }
+    ],
+    ["path", { d: "M22 10v6", key: "1lu8f3" }],
+    ["path", { d: "M6 12.5V16a6 3 0 0 0 12 0v-3.5", key: "1r8lef" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/handshake.js
+  var Handshake = createLucideIcon("Handshake", [
+    ["path", { d: "m11 17 2 2a1 1 0 1 0 3-3", key: "efffak" }],
+    [
+      "path",
+      {
+        d: "m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4",
+        key: "9pr0kb"
+      }
+    ],
+    ["path", { d: "m21 3 1 11h-2", key: "1tisrp" }],
+    ["path", { d: "M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3", key: "1uvwmv" }],
+    ["path", { d: "M3 4h8", key: "1ep09j" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/hourglass.js
+  var Hourglass = createLucideIcon("Hourglass", [
+    ["path", { d: "M5 22h14", key: "ehvnwv" }],
+    ["path", { d: "M5 2h14", key: "pdyrp9" }],
+    [
+      "path",
+      {
+        d: "M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22",
+        key: "1d314k"
+      }
+    ],
+    [
+      "path",
+      { d: "M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2", key: "1vvvr6" }
+    ]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/message-circle.js
+  var MessageCircle = createLucideIcon("MessageCircle", [
+    ["path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z", key: "vv11sd" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/monitor.js
+  var Monitor = createLucideIcon("Monitor", [
+    ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }],
+    ["line", { x1: "8", x2: "16", y1: "21", y2: "21", key: "1svkeh" }],
+    ["line", { x1: "12", x2: "12", y1: "17", y2: "21", key: "vw1qmm" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/pause.js
+  var Pause = createLucideIcon("Pause", [
+    ["rect", { x: "14", y: "4", width: "4", height: "16", rx: "1", key: "zuxfzm" }],
+    ["rect", { x: "6", y: "4", width: "4", height: "16", rx: "1", key: "1okwgv" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/play.js
+  var Play = createLucideIcon("Play", [
+    ["polygon", { points: "6 3 20 12 6 21 6 3", key: "1oa8hb" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/rotate-ccw.js
+  var RotateCcw = createLucideIcon("RotateCcw", [
+    ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
+    ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/search.js
+  var Search = createLucideIcon("Search", [
+    ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }],
+    ["path", { d: "m21 21-4.3-4.3", key: "1qie3q" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/shield-check.js
+  var ShieldCheck = createLucideIcon("ShieldCheck", [
+    [
+      "path",
+      {
+        d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
+        key: "oel41y"
+      }
+    ],
+    ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/shuffle.js
+  var Shuffle = createLucideIcon("Shuffle", [
+    ["path", { d: "M2 18h1.4c1.3 0 2.5-.6 3.3-1.7l6.1-8.6c.7-1.1 2-1.7 3.3-1.7H22", key: "1wmou1" }],
+    ["path", { d: "m18 2 4 4-4 4", key: "pucp1d" }],
+    ["path", { d: "M2 6h1.9c1.5 0 2.9.9 3.6 2.2", key: "10bdb2" }],
+    ["path", { d: "M22 18h-5.9c-1.3 0-2.6-.7-3.3-1.8l-.5-.8", key: "vgxac0" }],
+    ["path", { d: "m18 14 4 4-4 4", key: "10pe0f" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/sparkles.js
+  var Sparkles = createLucideIcon("Sparkles", [
+    [
+      "path",
+      {
+        d: "M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z",
+        key: "4pj2yx"
+      }
+    ],
+    ["path", { d: "M20 3v4", key: "1olli1" }],
+    ["path", { d: "M22 5h-4", key: "1gvqau" }],
+    ["path", { d: "M4 17v2", key: "vumght" }],
+    ["path", { d: "M5 18H3", key: "zchphs" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/split.js
+  var Split = createLucideIcon("Split", [
+    ["path", { d: "M16 3h5v5", key: "1806ms" }],
+    ["path", { d: "M8 3H3v5", key: "15dfkv" }],
+    ["path", { d: "M12 22v-8.3a4 4 0 0 0-1.172-2.872L3 3", key: "1qrqzj" }],
+    ["path", { d: "m15 9 6-6", key: "ko1vev" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/target.js
+  var Target = createLucideIcon("Target", [
+    ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+    ["circle", { cx: "12", cy: "12", r: "6", key: "1vlfrh" }],
+    ["circle", { cx: "12", cy: "12", r: "2", key: "1c9p78" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/user-plus.js
+  var UserPlus = createLucideIcon("UserPlus", [
+    ["path", { d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2", key: "1yyitq" }],
+    ["circle", { cx: "9", cy: "7", r: "4", key: "nufk8" }],
+    ["line", { x1: "19", x2: "19", y1: "8", y2: "14", key: "1bvyxn" }],
+    ["line", { x1: "22", x2: "16", y1: "11", y2: "11", key: "1shjgl" }]
+  ]);
+
+  // node_modules/lucide-react/dist/esm/icons/users.js
+  var Users = createLucideIcon("Users", [
+    ["path", { d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2", key: "1yyitq" }],
+    ["circle", { cx: "9", cy: "7", r: "4", key: "nufk8" }],
+    ["path", { d: "M22 21v-2a4 4 0 0 0-3-3.87", key: "kshegd" }],
+    ["path", { d: "M16 3.13a4 4 0 0 1 0 7.75", key: "1da9ce" }]
+  ]);
+
+  // src/components/DialogPanel.tsx
+  var import_react5 = __toESM(require_react(), 1);
+
+  // src/game/cast.ts
+  var SK = ["#f6d6bd", "#ecc19d", "#d9a37c", "#b98059", "#8b5a3c"];
+  var SUIT = "#2b303b";
+  var SUIT2 = "#3a4150";
+  var NAVY = "#24304a";
+  var L = (skin, hair, hairStyle, top, pants, extra = {}) => ({
+    skin,
+    hair,
+    hairStyle,
+    top,
+    pants,
+    ...extra
+  });
+  var CAST = [
+    // ── Finance
+    {
+      id: "aleksey",
+      name: "Алексей",
+      role: "Руководитель финансового отдела",
+      dept: "finance",
+      deskId: "finance-0-2",
+      look: L(SK[1], "#3d2a1f", "side", SUIT, "#22262f", { shirt: "#f1f5f9", tie: "#1e40af", glasses: true, beard: true })
+    },
+    {
+      id: "dmitry",
+      name: "Дмитрий",
+      role: "Ведущий финансовый аналитик",
+      dept: "finance",
+      deskId: "finance-0-1",
+      look: L(SK[0], "#b07a3a", "short", "#5b7ea3", "#2f3542", { shirt: "#e2e8f0" })
+    },
+    {
+      id: "marina",
+      name: "Марина",
+      role: "Ведущий бухгалтер",
+      dept: "finance",
+      deskId: "finance-0-0",
+      look: L(SK[0], "#6b3a22", "long", SUIT2, "#2a2f3a", { shirt: "#fce7f3", glasses: true })
+    },
+    {
+      id: "oleg",
+      name: "Олег",
+      role: "Финансовый аналитик",
+      dept: "finance",
+      deskId: "finance-1-0",
+      look: L(SK[2], "#1f1a18", "buzz", "#7a8ba1", "#2b3240", { shirt: "#f8fafc" })
+    },
+    {
+      id: "katya",
+      name: "Катя",
+      role: "Бухгалтер",
+      dept: "finance",
+      deskId: "finance-1-1",
+      look: L(SK[1], "#2a1c16", "bun", "#a34a5b", "#2a2f3a")
+    },
+    {
+      id: "contractor",
+      name: "Игорь",
+      role: "Финансист-подрядчик (временно)",
+      dept: "finance",
+      deskId: "finance-1-2",
+      hidden: true,
+      tag: "подрядчик",
+      look: L(SK[3], "#191514", "short", "#4b6b4f", "#2b2f36", { shirt: "#ecfccb" })
+    },
+    {
+      id: "analyst",
+      name: "Анна",
+      role: "Новый финансовый аналитик",
+      dept: "finance",
+      deskId: "finance-0-1",
+      hidden: true,
+      look: L(SK[0], "#d4a24c", "pony", NAVY, "#262b36", { shirt: "#f1f5f9" })
+    },
+    // ── CEO
+    {
+      id: "ceo",
+      name: "Виктор Павлович",
+      role: "CEO GrowTech",
+      dept: "ceo",
+      deskId: "ceo-desk",
+      look: L(SK[1], "#b8bcc4", "side", "#1b2130", "#151922", { shirt: "#ffffff", tie: "#b91c1c", glasses: true })
+    },
+    // ── Sales
+    {
+      id: "nikita",
+      name: "Никита",
+      role: "Менеджер по продажам",
+      dept: "sales",
+      deskId: "sales-0-0",
+      look: L(SK[1], "#4a2f1f", "side", SUIT, "#20242c", { shirt: "#e0f2fe", tie: "#0f766e" })
+    },
+    {
+      id: "olya",
+      name: "Оля",
+      role: "Менеджер по продажам",
+      dept: "sales",
+      deskId: "sales-0-1",
+      look: L(SK[0], "#8a4b2a", "long", "#c2410c", "#2a2f3a")
+    },
+    {
+      id: "timur",
+      name: "Тимур",
+      role: "Аккаунт-менеджер",
+      dept: "sales",
+      deskId: "sales-1-0",
+      look: L(SK[3], "#16120f", "buzz", SUIT2, "#20242c", { shirt: "#f8fafc", beard: true })
+    },
+    {
+      id: "sasha",
+      name: "Саша",
+      role: "Менеджер по продажам",
+      dept: "sales",
+      deskId: "sales-1-1",
+      look: L(SK[2], "#2b1d16", "curly", "#2f6f8f", "#2a2f3a")
+    },
+    {
+      id: "hos",
+      name: "Ирина",
+      role: "Head of Sales (новый руководитель)",
+      dept: "sales",
+      deskId: "sales-0-2",
+      hidden: true,
+      look: L(SK[1], "#3a2318", "bun", "#1f2937", "#171b22", { shirt: "#fde68a" })
+    },
+    // ── Product
+    {
+      id: "maxim",
+      name: "Максим",
+      role: "Product Lead",
+      dept: "product",
+      deskId: "product-0-0",
+      look: L(SK[0], "#5a3b26", "short", "#4338ca", "#273041", { glasses: true })
+    },
+    {
+      id: "lena",
+      name: "Лена",
+      role: "Дизайнер",
+      dept: "product",
+      deskId: "product-0-1",
+      look: L(SK[1], "#c2410c", "long", "#7c3aed", "#2a2f3a")
+    },
+    {
+      id: "artem",
+      name: "Артём",
+      role: "Разработчик",
+      dept: "product",
+      deskId: "product-0-2",
+      look: L(SK[2], "#1d1714", "curly", "#334155", "#1f2937", { beard: true })
+    },
+    {
+      id: "vika",
+      name: "Вика",
+      role: "Разработчик",
+      dept: "product",
+      deskId: "product-1-0",
+      look: L(SK[0], "#191514", "pony", "#0f766e", "#273041", { glasses: true })
+    },
+    {
+      id: "roma",
+      name: "Рома",
+      role: "QA-инженер",
+      dept: "product",
+      deskId: "product-1-1",
+      look: L(SK[1], "#9a6b3f", "side", "#64748b", "#273041")
+    },
+    // ── Marketing
+    {
+      id: "polina",
+      name: "Полина",
+      role: "Head of Marketing",
+      dept: "marketing",
+      deskId: "marketing-0-0",
+      look: L(SK[0], "#2a1a14", "bun", "#be185d", "#2a2f3a", { glasses: true })
+    },
+    {
+      id: "denis",
+      name: "Денис",
+      role: "Performance-маркетолог",
+      dept: "marketing",
+      deskId: "marketing-0-1",
+      look: L(SK[2], "#3b2a20", "short", "#ea580c", "#273041")
+    },
+    {
+      id: "anya",
+      name: "Аня",
+      role: "Контент-менеджер",
+      dept: "marketing",
+      deskId: "marketing-1-0",
+      look: L(SK[1], "#e2b36b", "long", "#db2777", "#2a2f3a")
+    },
+    {
+      id: "gosha",
+      name: "Гоша",
+      role: "Аналитик маркетинга",
+      dept: "marketing",
+      deskId: "marketing-1-1",
+      look: L(SK[4], "#141110", "buzz", "#0369a1", "#1f2937")
+    },
+    // ── HR
+    {
+      id: "player",
+      name: "Ты",
+      role: "HR-директор GrowTech",
+      dept: "hr",
+      deskId: "hr-0-1",
+      isPlayer: true,
+      look: L(SK[1], "#4a2e1e", "side", "#1e3a8a", "#1b2230", { shirt: "#f8fafc" })
+    },
+    {
+      id: "sveta",
+      name: "Света",
+      role: "HR Business Partner",
+      dept: "hr",
+      deskId: "hr-1-0",
+      look: L(SK[0], "#7a4425", "long", "#3b4a6b", "#262b36", { shirt: "#fef3c7" })
+    },
+    {
+      id: "pasha",
+      name: "Паша",
+      role: "Рекрутер",
+      dept: "hr",
+      deskId: "hr-1-1",
+      look: L(SK[2], "#231a15", "short", "#475569", "#262b36", { shirt: "#f8fafc", beard: true })
+    },
+    {
+      id: "nina",
+      name: "Нина",
+      role: "HR-специалист",
+      dept: "hr",
+      deskId: "hr-1-2",
+      look: L(SK[1], "#3a2a20", "curly", "#6d28d9", "#262b36")
+    }
+  ];
+  var CAST_BY_ID = Object.fromEntries(CAST.map((e) => [e.id, e]));
+  var SCRIPTED = /* @__PURE__ */ new Set(["aleksey", "dmitry", "marina", "oleg", "katya", "contractor", "analyst", "ceo", "player", "hos"]);
+  var HR_STAFF = ["sveta", "pasha", "nina"];
+
+  // src/useMedia.ts
+  var import_react3 = __toESM(require_react(), 1);
+  function useMedia(query) {
+    const [matches, setMatches] = (0, import_react3.useState)(() => window.matchMedia(query).matches);
+    (0, import_react3.useEffect)(() => {
+      const mq = window.matchMedia(query);
+      const update = () => setMatches(mq.matches);
+      update();
+      mq.addEventListener("change", update);
+      return () => mq.removeEventListener("change", update);
+    }, [query]);
+    return matches;
+  }
+
+  // src/components/Person.tsx
+  var import_framer_motion = __toESM(require_framer_motion(), 1);
+  var import_react4 = __toESM(require_react(), 1);
+
+  // umd:react/jsx-runtime
+  var R = window.React;
+  var Fragment = R.Fragment;
+  function jsx(type, props, key) {
+    return R.createElement(type, key === void 0 ? props : { ...props, key });
+  }
+  var jsxs = jsx;
+
+  // src/components/Person.tsx
+  function shade(hex, amt) {
+    const n = parseInt(hex.slice(1), 16);
+    const f = (c) => Math.max(0, Math.min(255, Math.round(c + amt * 255)));
+    const r = f(n >> 16 & 255), g = f(n >> 8 & 255), b = f(n & 255);
+    return `#${(r << 16 | g << 8 | b).toString(16).padStart(6, "0")}`;
+  }
+  function Hair({ look, layer }) {
+    const h = look.hair;
+    const cap = "M7.3 14.5 C7 7.3 11.6 3.8 17 3.8 C22.4 3.8 27 7.3 26.7 14.5 C25 10.4 21.4 8.9 17 9.1 C12.6 8.9 9 10.4 7.3 14.5Z";
+    if (layer === "back") {
+      if (look.hairStyle === "long") return /* @__PURE__ */ jsx("rect", { x: "6.6", y: "9", width: "20.8", height: "20", rx: "8", fill: h });
+      if (look.hairStyle === "pony") return /* @__PURE__ */ jsx("ellipse", { cx: "27.3", cy: "17", rx: "3", ry: "6.5", fill: h });
+      return null;
+    }
+    switch (look.hairStyle) {
+      case "side":
+        return /* @__PURE__ */ jsx("path", { d: "M7.2 15 C6.7 7 11.5 3.6 17.6 3.8 C23.2 4 27.3 8 26.8 14 C24.5 9.6 18.5 8.4 12.5 11 C10.4 12 8.6 13.2 7.2 15Z", fill: h });
+      case "buzz":
+        return /* @__PURE__ */ jsx("path", { d: cap, fill: h, opacity: 0.75 });
+      case "bun":
+        return /* @__PURE__ */ jsxs("g", { fill: h, children: [
+          /* @__PURE__ */ jsx("circle", { cx: "17", cy: "3.6", r: "4" }),
+          /* @__PURE__ */ jsx("path", { d: cap })
+        ] });
+      case "curly":
+        return /* @__PURE__ */ jsxs("g", { fill: h, children: [
+          /* @__PURE__ */ jsx("circle", { cx: "9", cy: "11", r: "3.8" }),
+          /* @__PURE__ */ jsx("circle", { cx: "12.6", cy: "6.6", r: "4.2" }),
+          /* @__PURE__ */ jsx("circle", { cx: "18.4", cy: "5.2", r: "4.4" }),
+          /* @__PURE__ */ jsx("circle", { cx: "23.8", cy: "8.4", r: "4" }),
+          /* @__PURE__ */ jsx("circle", { cx: "25.8", cy: "13", r: "3" }),
+          /* @__PURE__ */ jsx("circle", { cx: "8", cy: "14.6", r: "2.6" })
+        ] });
+      default:
+        return /* @__PURE__ */ jsx("path", { d: cap, fill: h });
+    }
+  }
+  function PersonSprite({
+    look,
+    walking,
+    seated,
+    carrying,
+    scale = 1,
+    headOnly = false
+  }) {
+    const arm = shade(look.top, -0.06);
+    return /* @__PURE__ */ jsxs(
+      "svg",
+      {
+        width: 34 * scale,
+        height: 54 * scale,
+        viewBox: "0 0 34 54",
+        overflow: "visible",
+        className: walking ? "walking" : seated ? "seated" : "idle",
+        children: [
+          !headOnly && /* @__PURE__ */ jsx("ellipse", { cx: "17", cy: "52.2", rx: "10", ry: "2.6", fill: "rgba(0,0,0,.25)" }),
+          /* @__PURE__ */ jsxs("g", { className: "leg-a", children: [
+            /* @__PURE__ */ jsx("rect", { x: "11.2", y: "38", width: "5.4", height: "14", rx: "2.4", fill: look.pants }),
+            /* @__PURE__ */ jsx("rect", { x: "10.6", y: "49.6", width: "6.4", height: "3", rx: "1.4", fill: "#16181d" })
+          ] }),
+          /* @__PURE__ */ jsxs("g", { className: "leg-b", children: [
+            /* @__PURE__ */ jsx("rect", { x: "17.4", y: "38", width: "5.4", height: "14", rx: "2.4", fill: look.pants }),
+            /* @__PURE__ */ jsx("rect", { x: "17", y: "49.6", width: "6.4", height: "3", rx: "1.4", fill: "#16181d" })
+          ] }),
+          /* @__PURE__ */ jsxs("g", { className: "body", children: [
+            /* @__PURE__ */ jsxs("g", { className: "arms", children: [
+              /* @__PURE__ */ jsx("rect", { x: "5", y: "24.5", width: "5.4", height: "14.5", rx: "2.7", fill: arm }),
+              /* @__PURE__ */ jsx("rect", { x: "23.6", y: "24.5", width: "5.4", height: "14.5", rx: "2.7", fill: arm }),
+              /* @__PURE__ */ jsx("circle", { cx: "7.7", cy: "39", r: "2.3", fill: look.skin }),
+              /* @__PURE__ */ jsx("circle", { cx: "26.3", cy: "39", r: "2.3", fill: look.skin })
+            ] }),
+            /* @__PURE__ */ jsx("rect", { x: "8.4", y: "22.5", width: "17.2", height: "19.5", rx: "6.4", fill: look.top }),
+            look.shirt && /* @__PURE__ */ jsx("path", { d: "M13.3 22.6 L17 30 L20.7 22.6Z", fill: look.shirt }),
+            look.tie && /* @__PURE__ */ jsx("path", { d: "M17 24.4 L15.6 26 L17 33.4 L18.4 26Z", fill: look.tie }),
+            /* @__PURE__ */ jsx("rect", { x: "8.4", y: "22.5", width: "17.2", height: "19.5", rx: "6.4", fill: "url(#bodyShade)" }),
+            /* @__PURE__ */ jsxs("g", { className: "head", children: [
+              /* @__PURE__ */ jsx(Hair, { look, layer: "back" }),
+              /* @__PURE__ */ jsx("circle", { cx: "17", cy: "14", r: "9.5", fill: look.skin }),
+              /* @__PURE__ */ jsx("ellipse", { cx: "7.8", cy: "15", rx: "1.4", ry: "2", fill: shade(look.skin, -0.05) }),
+              /* @__PURE__ */ jsx("ellipse", { cx: "26.2", cy: "15", rx: "1.4", ry: "2", fill: shade(look.skin, -0.05) }),
+              look.beard && /* @__PURE__ */ jsx("path", { d: "M8.6 15.5 C9 22 13 24.2 17 24.2 C21 24.2 25 22 25.4 15.5 C23.4 19.6 20.4 20.3 17 20.3 C13.6 20.3 10.6 19.6 8.6 15.5Z", fill: look.hair }),
+              /* @__PURE__ */ jsx(Hair, { look, layer: "front" }),
+              /* @__PURE__ */ jsx("circle", { cx: "13.6", cy: "15.4", r: "1.25", fill: "#231c25" }),
+              /* @__PURE__ */ jsx("circle", { cx: "20.4", cy: "15.4", r: "1.25", fill: "#231c25" }),
+              /* @__PURE__ */ jsx("path", { d: "M14.9 18.9 Q17 20.3 19.1 18.9", stroke: "#8d4f45", strokeWidth: "0.9", fill: "none", strokeLinecap: "round" }),
+              /* @__PURE__ */ jsx("circle", { cx: "11.6", cy: "18", r: "1.3", fill: "#f4718a", opacity: "0.25" }),
+              /* @__PURE__ */ jsx("circle", { cx: "22.4", cy: "18", r: "1.3", fill: "#f4718a", opacity: "0.25" }),
+              look.glasses && /* @__PURE__ */ jsxs("g", { stroke: "#1f2430", strokeWidth: "0.9", fill: "rgba(255,255,255,.12)", children: [
+                /* @__PURE__ */ jsx("circle", { cx: "13.6", cy: "15.3", r: "2.6" }),
+                /* @__PURE__ */ jsx("circle", { cx: "20.4", cy: "15.3", r: "2.6" }),
+                /* @__PURE__ */ jsx("path", { d: "M16.2 15.2 H17.8" })
+              ] })
+            ] }),
+            carrying && /* @__PURE__ */ jsxs("g", { children: [
+              /* @__PURE__ */ jsx("rect", { x: "7.5", y: "28", width: "19", height: "11.5", rx: "1.4", fill: "#c99a5a", stroke: "#9c733d", strokeWidth: "0.8" }),
+              /* @__PURE__ */ jsx("path", { d: "M7.5 31 H26.5", stroke: "#9c733d", strokeWidth: "0.7" }),
+              /* @__PURE__ */ jsx("rect", { x: "14", y: "25", width: "2.4", height: "4", fill: "#4ade80", rx: "1" }),
+              /* @__PURE__ */ jsx("circle", { cx: "15.2", cy: "24.4", r: "2.2", fill: "#22c55e" })
+            ] })
+          ] })
+        ]
+      }
+    );
+  }
+  function MarkView({ mark }) {
+    switch (mark) {
+      case "alert":
+        return /* @__PURE__ */ jsx(
+          import_framer_motion.motion.div,
+          {
+            animate: { y: [0, -6, 0] },
+            transition: { repeat: Infinity, duration: 0.8 },
+            className: "grid h-6 w-6 place-items-center rounded-full bg-red-500 text-[15px] font-black text-white shadow-[0_0_14px_rgba(239,68,68,.9)] ring-2 ring-white",
+            children: "!"
+          }
+        );
+      case "tired":
+        return /* @__PURE__ */ jsx(
+          import_framer_motion.motion.div,
+          {
+            animate: { opacity: [0, 1, 1, 0], y: [4, 0, -3, -8] },
+            transition: { repeat: Infinity, duration: 2.2, repeatDelay: 0.9 },
+            className: "text-[15px]",
+            children: "💧"
+          }
+        );
+      case "angry":
+        return /* @__PURE__ */ jsx(import_framer_motion.motion.div, { animate: { scale: [1, 1.25, 1] }, transition: { repeat: Infinity, duration: 1.1 }, className: "text-[16px]", children: "💢" });
+      case "happy":
+        return /* @__PURE__ */ jsx(import_framer_motion.motion.div, { animate: { rotate: [0, 15, -15, 0] }, transition: { repeat: Infinity, duration: 1.6 }, className: "text-[15px]", children: "✨" });
+      case "new":
+        return /* @__PURE__ */ jsx(
+          import_framer_motion.motion.div,
+          {
+            initial: { scale: 0 },
+            animate: { scale: 1 },
+            className: "whitespace-nowrap rounded-full bg-emerald-500 px-2 py-[1px] text-[10px] font-extrabold text-white shadow-[0_0_14px_rgba(16,185,129,.8)]",
+            children: "✨ новый"
+          }
+        );
+      default:
+        return null;
+    }
+  }
+  var Person = (0, import_react4.memo)(function Person2({ emp, st, onArrive }) {
+    const start = st.path.length > 1 ? st.path[0] : st.pos;
+    const x = (0, import_framer_motion.useMotionValue)(start.x);
+    const y = (0, import_framer_motion.useMotionValue)(start.y);
+    const zIndex = (0, import_framer_motion.useTransform)(y, (v) => Math.round(v) + 10);
+    (0, import_react4.useEffect)(() => {
+      const pts = st.path;
+      if (pts.length < 2) {
+        x.set(st.pos.x);
+        y.set(st.pos.y);
+        return;
+      }
+      const segs = pts.slice(1).map((p, i) => Math.hypot(p.x - pts[i].x, p.y - pts[i].y));
+      const total = segs.reduce((a, b) => a + b, 0) || 1;
+      let acc = 0;
+      const times = [0, ...segs.map((s) => (acc += s) / total)];
+      const duration = Math.max(0.3, total / (st.fast ? 175 : 115));
+      x.set(pts[0].x);
+      y.set(pts[0].y);
+      const ax = (0, import_framer_motion.animate)(x, pts.map((p) => p.x), { duration, times, ease: "linear" });
+      const ay = (0, import_framer_motion.animate)(y, pts.map((p) => p.y), {
+        duration,
+        times,
+        ease: "linear",
+        onComplete: () => onArrive(emp.id, st.pathId)
+      });
+      return () => {
+        ax.stop();
+        ay.stop();
+      };
+    }, [st.pathId]);
+    const walking = st.status === "walking";
+    const seated = st.status === "seated";
+    return /* @__PURE__ */ jsx(
+      import_framer_motion.motion.div,
+      {
+        className: "group absolute left-0 top-0",
+        style: { x, y, zIndex },
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        exit: { opacity: 0, transition: { duration: 0.9 } },
+        children: /* @__PURE__ */ jsxs("div", { className: "relative -translate-x-1/2 -translate-y-full", style: { animationDelay: `${emp.id.length % 5 * 0.13}s` }, children: [
+          /* @__PURE__ */ jsx("div", { className: "pointer-events-none absolute bottom-full left-1/2 mb-[-2px] flex -translate-x-1/2 flex-col items-center", children: emp.isPlayer ? /* @__PURE__ */ jsx("div", { className: "rounded-full bg-blue-500 px-2 py-[1px] text-[10px] font-black tracking-wide text-white shadow-[0_0_12px_rgba(59,130,246,.9)]", children: "ТЫ" }) : st.mark ? /* @__PURE__ */ jsx(MarkView, { mark: st.mark }) : st.bubble ? /* @__PURE__ */ jsxs(
+            import_framer_motion.motion.div,
+            {
+              initial: { scale: 0, y: 4 },
+              animate: { scale: 1, y: 0 },
+              className: "relative rounded-xl bg-white px-1.5 py-[1px] text-[12px] shadow-md",
+              children: [
+                st.bubble,
+                /* @__PURE__ */ jsx("span", { className: "absolute -bottom-1 left-1/2 h-2 w-2 -translate-x-1/2 rotate-45 bg-white" })
+              ]
+            }
+          ) : emp.tag && !walking ? /* @__PURE__ */ jsx("div", { className: "whitespace-nowrap rounded-full bg-slate-800/90 px-1.5 text-[9px] font-bold text-lime-300", children: emp.tag }) : null }),
+          /* @__PURE__ */ jsx("div", { className: "cursor-default", children: /* @__PURE__ */ jsx(PersonSprite, { look: emp.look, walking, seated, carrying: st.carrying }) }),
+          /* @__PURE__ */ jsxs("div", { className: "pointer-events-none absolute left-1/2 top-full z-50 mt-1 hidden -translate-x-1/2 whitespace-nowrap rounded-lg bg-slate-900/95 px-2 py-1 text-[10px] leading-tight text-white shadow-lg group-hover:block", children: [
+            /* @__PURE__ */ jsx("div", { className: "font-extrabold", children: emp.name }),
+            /* @__PURE__ */ jsx("div", { className: "text-slate-300", children: emp.role })
+          ] })
+        ] })
+      }
+    );
+  });
+  function Avatar({ emp, size = 72 }) {
+    const s = size / 30;
+    return /* @__PURE__ */ jsx(
+      "div",
+      {
+        className: "relative shrink-0 overflow-hidden rounded-2xl bg-gradient-to-b from-sky-200 to-sky-100 ring-2 ring-white/20",
+        style: { width: size, height: size },
+        children: /* @__PURE__ */ jsx("div", { className: "absolute", style: { left: size / 2 - 17 * s, top: size * 0.12 }, children: /* @__PURE__ */ jsx(PersonSprite, { look: emp.look, scale: s, headOnly: true }) })
+      }
+    );
+  }
+
+  // src/components/DialogPanel.tsx
+  var ICONS = {
+    search: Search,
+    talk: MessageCircle,
+    shuffle: Shuffle,
+    wait: Hourglass,
+    target: Target,
+    shield: ShieldCheck,
+    split: Split,
+    plan: ClipboardList,
+    return: RotateCcw,
+    contractor: UserPlus,
+    clock: Clock,
+    team: Users,
+    handshake: Handshake,
+    door: DoorOpen
+  };
+  function Card({ o, chosen, onClick, index }) {
+    const Icon2 = ICONS[o.icon];
+    return /* @__PURE__ */ jsxs(
+      import_framer_motion2.motion.button,
+      {
+        layout: true,
+        type: "button",
+        onClick,
+        disabled: !onClick,
+        initial: { opacity: 0, y: 16 },
+        animate: { opacity: 1, y: 0, transition: { delay: chosen ? 0 : 0.25 + index * 0.07 } },
+        exit: { opacity: 0, scale: 0.85, transition: { duration: 0.25 } },
+        whileHover: onClick ? { y: -5 } : void 0,
+        whileTap: onClick ? { scale: 0.98 } : void 0,
+        className: `group flex h-full w-full items-start gap-3 rounded-2xl border p-3 text-left transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-300 sm:flex-col sm:items-stretch sm:gap-0 sm:p-4 ${chosen ? "border-blue-400 bg-blue-500/20 shadow-[0_0_0_1px_rgba(96,165,250,.6),0_0_32px_rgba(59,130,246,.45)]" : "border-white/10 bg-white/[0.05] hover:border-blue-300/60 hover:bg-white/[0.09] hover:shadow-[0_10px_30px_rgba(0,0,0,.35)]"}`,
+        children: [
+          /* @__PURE__ */ jsx(
+            "div",
+            {
+              className: `grid h-10 w-10 shrink-0 place-items-center rounded-xl ${chosen ? "bg-blue-500 text-white" : "bg-blue-500/15 text-blue-200 group-hover:bg-blue-500/25"}`,
+              children: /* @__PURE__ */ jsx(Icon2, { size: 20, strokeWidth: 2.2 })
+            }
+          ),
+          /* @__PURE__ */ jsxs("div", { className: "min-w-0", children: [
+            /* @__PURE__ */ jsx("div", { className: "text-[13px] font-black uppercase leading-tight tracking-wide text-white sm:mt-3", children: o.title }),
+            /* @__PURE__ */ jsx("div", { className: "mt-1 text-[13px] leading-snug text-slate-300 sm:mt-1.5", children: o.text })
+          ] })
+        ]
+      }
+    );
+  }
+  function DialogPanel({ view, onChoose, onContinue }) {
+    const { data, chosen } = view;
+    const emp = CAST_BY_ID[data.speakerId];
+    const [showReaction, setShowReaction] = (0, import_react5.useState)(false);
+    const phone = useMedia("(max-width: 639px)");
+    (0, import_react5.useEffect)(() => {
+      setShowReaction(false);
+      if (!chosen) return;
+      const t = setTimeout(() => setShowReaction(true), 650);
+      return () => clearTimeout(t);
+    }, [chosen]);
+    const paragraphs = data.text.split("\n\n");
+    const grid = data.options.length === 2 ? "sm:grid-cols-2" : "sm:grid-cols-2 lg:grid-cols-4";
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      /* @__PURE__ */ jsx(
+        import_framer_motion2.motion.div,
+        {
+          className: "pointer-events-none fixed inset-0 z-30",
+          style: { background: "radial-gradient(ellipse 60% 45% at 50% 30%, rgba(8,10,20,0) 0%, rgba(8,10,20,.62) 100%)" },
+          initial: { opacity: 0 },
+          animate: { opacity: 1 },
+          exit: { opacity: 0 }
+        }
+      ),
+      /* @__PURE__ */ jsx(
+        import_framer_motion2.motion.div,
+        {
+          className: "fixed inset-x-0 bottom-3 z-40 mx-auto w-[calc(100%-32px)] max-w-[1080px] sm:bottom-5 sm:w-[calc(100%-48px)]",
+          style: { marginBottom: "env(safe-area-inset-bottom, 0px)" },
+          initial: { y: 60, opacity: 0 },
+          animate: { y: 0, opacity: 1 },
+          exit: { y: 60, opacity: 0 },
+          transition: { type: "spring", damping: 26, stiffness: 220 },
+          children: /* @__PURE__ */ jsxs("div", { className: "max-h-[72dvh] overflow-y-auto rounded-3xl border border-white/10 bg-[#121826]/95 p-4 shadow-[0_30px_80px_rgba(0,0,0,.6)] backdrop-blur-md sm:p-5", children: [
+            /* @__PURE__ */ jsxs("div", { className: "flex gap-3 sm:gap-4", children: [
+              /* @__PURE__ */ jsx(Avatar, { emp, size: phone ? 52 : 80 }),
+              /* @__PURE__ */ jsxs("div", { className: "min-w-0 flex-1", children: [
+                /* @__PURE__ */ jsxs("div", { className: "flex flex-wrap items-baseline gap-x-2", children: [
+                  /* @__PURE__ */ jsx("span", { className: "text-[17px] font-black text-white", children: emp.name }),
+                  /* @__PURE__ */ jsx("span", { className: "text-[13px] font-semibold text-slate-400", children: emp.role })
+                ] }),
+                /* @__PURE__ */ jsx("div", { className: "mt-1.5 space-y-1.5 text-[14px] leading-relaxed text-slate-100 sm:text-[15px]", children: paragraphs.map((p, i) => /* @__PURE__ */ jsx(import_framer_motion2.motion.p, { initial: { opacity: 0, y: 6 }, animate: { opacity: 1, y: 0 }, transition: { delay: 0.15 + i * 0.35 }, children: p }, i)) })
+              ] })
+            ] }),
+            /* @__PURE__ */ jsxs("div", { className: "mt-4 border-t border-white/10 pt-4", children: [
+              !chosen && /* @__PURE__ */ jsx(
+                import_framer_motion2.motion.div,
+                {
+                  initial: { opacity: 0 },
+                  animate: { opacity: 1 },
+                  transition: { delay: 0.2 },
+                  className: "mb-3 text-[12px] font-extrabold uppercase tracking-[0.14em] text-blue-300",
+                  children: data.question
+                }
+              ),
+              /* @__PURE__ */ jsxs(import_framer_motion2.motion.div, { layout: true, className: chosen ? "flex flex-col items-stretch gap-3 sm:flex-row sm:gap-4" : `grid gap-2 sm:gap-3 ${grid}`, children: [
+                /* @__PURE__ */ jsx(import_framer_motion2.AnimatePresence, { mode: "popLayout", children: data.options.filter((o) => !chosen || o.id === chosen.id).map((o, i) => /* @__PURE__ */ jsx("div", { className: chosen ? "w-full sm:w-[300px] sm:shrink-0" : "h-full", children: /* @__PURE__ */ jsx(Card, { o, index: i, chosen: chosen?.id === o.id, onClick: chosen ? void 0 : () => onChoose(o) }) }, o.id)) }),
+                chosen && showReaction && /* @__PURE__ */ jsxs(
+                  import_framer_motion2.motion.div,
+                  {
+                    initial: { opacity: 0, x: -10 },
+                    animate: { opacity: 1, x: 0 },
+                    className: "flex min-w-0 flex-1 flex-col justify-between gap-3",
+                    children: [
+                      /* @__PURE__ */ jsxs("div", { className: "flex items-start gap-3", children: [
+                        /* @__PURE__ */ jsx(Avatar, { emp, size: 44 }),
+                        /* @__PURE__ */ jsx("div", { className: "relative min-w-0 rounded-2xl rounded-tl-sm bg-white px-4 py-3 text-[15px] font-semibold leading-snug text-slate-800 shadow-lg", children: chosen.reaction })
+                      ] }),
+                      /* @__PURE__ */ jsx("div", { className: "flex justify-end", children: /* @__PURE__ */ jsxs(
+                        import_framer_motion2.motion.button,
+                        {
+                          type: "button",
+                          onClick: onContinue,
+                          whileHover: { x: 3 },
+                          className: "flex w-full items-center justify-center gap-2 rounded-xl bg-blue-500 px-5 py-2.5 text-[14px] font-extrabold text-white shadow-[0_8px_24px_rgba(59,130,246,.45)] hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-200 sm:w-auto",
+                          children: [
+                            "Продолжить ",
+                            /* @__PURE__ */ jsx(ArrowRight, { size: 18 })
+                          ]
+                        }
+                      ) })
+                    ]
+                  }
+                )
+              ] })
+            ] })
+          ] })
+        }
+      )
+    ] });
+  }
+
+  // src/components/Finale.tsx
+  var import_framer_motion3 = __toESM(require_framer_motion(), 1);
+  var import_react6 = __toESM(require_react(), 1);
+
+  // src/game/endings.ts
+  var INITIAL_STATS = {
+    financeHealth: 80,
+    salesHealth: 75,
+    hrCapacity: 80,
+    employeeTrust: 70,
+    ceoTrust: 70,
+    turnoverRisk: 20,
+    strategicProgress: 20
+  };
+  function computeEnding(s) {
+    const finance = s.financeHealth - Math.max(0, s.turnoverRisk - 25) * 0.5;
+    const strategy = s.strategicProgress;
+    if (finance >= 60 && strategy >= 55) return "balanced";
+    if (strategy >= 55) return "business";
+    if (finance >= 60) return "people";
+    return "loss";
+  }
+  var ENDINGS = {
+    balanced: {
+      title: "Сбалансированный HR-лидер",
+      subtitle: "Лучший исход — баланс",
+      accent: "#22c55e",
+      comment: "Ты не пытался решить все проблемы одновременно. Ты оценивал риски, разговаривал с людьми и распределял ограниченные ресурсы между текущими проблемами и задачами бизнеса.",
+      levels: { finance: "green", sales: "green", hr: "yellow", product: "green", marketing: "green", ceo: "green" },
+      status: {
+        finance: "Стабилизирован, отчётность закрыта",
+        sales: "Head of Sales найден",
+        hr: "Команда справилась, нагрузка рабочая",
+        product: "Стабильно",
+        marketing: "Стабильно, готовится к запуску",
+        ceo: "Доволен темпом"
+      },
+      style: [
+        "Прежде чем действовать, ты стараешься разобраться в ситуации.",
+        "Ты умеешь говорить «да» бизнесу, не отказываясь от команды."
+      ]
+    },
+    business: {
+      title: "Бизнес прежде всего",
+      subtitle: "Хороший результат, но с рисками",
+      accent: "#84cc16",
+      comment: "Ты хорошо реагировал на стратегические приоритеты бизнеса. Но несколько раз откладывал внутренние проблемы команды. Это позволило быстро добиться результата, но накопило HR-риск.",
+      levels: { finance: "orange", sales: "green", hr: "orange", product: "green", marketing: "green", ceo: "green" },
+      status: {
+        finance: "Перегружен, есть риск увольнения",
+        sales: "Head of Sales найден очень быстро",
+        hr: "Высокая нагрузка",
+        product: "Стабильно",
+        marketing: "Стабильно",
+        ceo: "Доволен результатом"
+      },
+      style: [
+        "Ты хорошо реагируешь на прямые запросы руководства.",
+        "Ты часто выбираешь стратегический результат вместо снижения текущего риска."
+      ]
+    },
+    people: {
+      title: "Люди прежде всего",
+      subtitle: "Средний результат",
+      accent: "#eab308",
+      comment: "Ты последовательно защищал команду и снижал внутренние риски. Но стратегические задачи бизнеса несколько раз оказывались на втором месте.",
+      levels: { finance: "green", sales: "orange", hr: "yellow", product: "green", marketing: "green", ceo: "yellow" },
+      status: {
+        finance: "Стабилизирован, команда чувствует поддержку",
+        sales: "Head of Sales найден слишком поздно",
+        hr: "Умеренная нагрузка",
+        product: "Стабильно",
+        marketing: "Ждёт перенесённого запуска",
+        ceo: "Обеспокоен сроками"
+      },
+      style: [
+        "Ты последовательно защищаешь команду и снижаешь внутренние риски.",
+        "Стратегические задачи у тебя иногда уходят на второй план."
+      ]
+    },
+    loss: {
+      title: "Потеря контроля",
+      subtitle: "Сложный исход",
+      accent: "#ef4444",
+      comment: "Ты несколько раз откладывал решения и реагировал уже тогда, когда проблемы становились критическими. Маленькие риски постепенно превратились в системные.",
+      levels: { finance: "red", sales: "orange", hr: "red", product: "green", marketing: "yellow", ceo: "red" },
+      status: {
+        finance: "Критический риск: увольнения",
+        sales: "Head of Sales не найден",
+        hr: "Команда перегружена",
+        product: "Стабильно",
+        marketing: "Запуск под вопросом",
+        ceo: "Недоволен"
+      },
+      style: [
+        "Ты склонен откладывать проблемы, пока они ещё не стали критическими.",
+        "Ты часто передаёшь решение другим, оставаясь в стороне."
+      ]
+    }
+  };
+  function firstMoveInsight(ch) {
+    switch (ch.e1) {
+      case "A":
+        return "На уход ключевого сотрудника ты отреагировал быстрым запуском поиска.";
+      case "B":
+        return ch.e1b === "keep" ? "Ты начал с разговора с человеком — узнал настоящую причину ухода и смог его удержать." : "Ты начал с разговора с человеком и узнал настоящую причину ухода.";
+      case "C":
+        return "Первую проблему ты решил силами самой команды: HR сэкономил ресурс, а Finance получил дополнительную нагрузку.";
+      default:
+        return "Первую проблему ты передал руководителю отдела и решил подключиться позже.";
+    }
+  }
+  var LEVEL_COLOR = {
+    green: "#22c55e",
+    yellow: "#facc15",
+    orange: "#fb923c",
+    red: "#ef4444"
+  };
+  var LEVEL_RANK = { green: 0, yellow: 1, orange: 2, red: 3 };
+  var LEVELS = ["green", "yellow", "orange", "red"];
+
+  // src/game/layout.ts
+  var STAGE_W = 1280;
+  var STAGE_H = 800;
+  var LANE_Y = 400;
+  function room(id, name, headcount, x, y, w, top) {
+    const h = 292;
+    return {
+      id,
+      name,
+      headcount,
+      x,
+      y,
+      w,
+      h,
+      top,
+      door: { x: x + w / 2, y: top ? y + h : y },
+      aisleY: top ? y + 262 : y + 30
+    };
+  }
+  var ROOMS = {
+    product: room("product", "Продукт", "128 человек", 24, 24, 392, true),
+    finance: room("finance", "Финансы", "18 человек", 440, 24, 400, true),
+    sales: room("sales", "Продажи", "52 человека", 864, 24, 392, true),
+    marketing: room("marketing", "Маркетинг", "37 человек", 24, 484, 392, false),
+    hr: room("hr", "HR (вы)", "твоя команда", 440, 484, 400, false),
+    ceo: room("ceo", "CEO", "кабинет", 864, 484, 392, false)
+  };
+  function makeDesk(roomId, row, col) {
+    const r = ROOMS[roomId];
+    const off = (r.w - 392) / 2;
+    const x = r.x + 36 + col * 120 + off;
+    const y = r.top ? r.y + 86 + row * 90 : r.y + 96 + row * 100;
+    const seat = { x: x + 40, y: y + 12 };
+    const gapX = (col <= 1 ? r.x + 136 : r.x + 256) + off;
+    const outside = [
+      { x: r.door.x, y: LANE_Y },
+      r.door,
+      { x: r.door.x, y: r.aisleY },
+      { x: gapX, y: r.aisleY }
+    ];
+    const stand = { x: gapX, y: seat.y + 6 };
+    const id = `${roomId}-${row}-${col}`;
+    return {
+      id,
+      room: roomId,
+      x,
+      y,
+      seat,
+      spot: { key: `desk:${id}`, approach: [...outside, stand, seat], seated: true },
+      standSpot: { key: `stand:${id}`, approach: [...outside, stand] }
+    };
+  }
+  var deskList = [];
+  for (const r of ["product", "finance", "sales", "marketing"]) {
+    for (let row = 0; row < 2; row++) for (let col = 0; col < 3; col++) deskList.push(makeDesk(r, row, col));
+  }
+  deskList.push(makeDesk("hr", 0, 1), makeDesk("hr", 1, 0), makeDesk("hr", 1, 1), makeDesk("hr", 1, 2));
+  var CEO_ROOM = ROOMS.ceo;
+  var CEO_DESK = { x: 1e3, y: 606, w: 120, h: 50 };
+  deskList.push({
+    id: "ceo-desk",
+    room: "ceo",
+    x: CEO_DESK.x,
+    y: CEO_DESK.y,
+    seat: { x: 1060, y: 620 },
+    spot: {
+      key: "desk:ceo",
+      approach: [
+        { x: CEO_ROOM.door.x, y: LANE_Y },
+        CEO_ROOM.door,
+        { x: 1060, y: 514 },
+        { x: 1150, y: 514 },
+        { x: 1150, y: 624 },
+        { x: 1060, y: 620 }
+      ],
+      seated: true
+    },
+    standSpot: { key: "stand:ceo", approach: [{ x: 1060, y: LANE_Y }, CEO_ROOM.door, { x: 1060, y: 514 }] }
+  });
+  var DESKS = Object.fromEntries(deskList.map((d) => [d.id, d]));
+  var ENTRANCE = { key: "entrance", approach: [{ x: 22, y: LANE_Y }] };
+  var HR_VISITOR = {
+    key: "hr-visitor",
+    approach: [{ x: 640, y: LANE_Y }, ROOMS.hr.door, { x: 640, y: 514 }, { x: 700, y: 514 }, { x: 700, y: 608 }]
+  };
+  var cs = (key, x, y, laneX = x) => ({
+    key,
+    approach: [{ x: laneX, y: LANE_Y }, { x, y }]
+  });
+  var WANDER_SPOTS = [
+    cs("coffee1", 70, 368),
+    cs("coffee2", 118, 368),
+    cs("sofa1", 352, 362),
+    cs("sofa2", 410, 362),
+    cs("bean1", 906, 452),
+    cs("bean2", 966, 452),
+    { key: "meetN1", approach: [{ x: 1112, y: LANE_Y }, { x: 1130, y: 368 }, { x: 1168, y: 370 }] },
+    { key: "meetN2", approach: [{ x: 1112, y: LANE_Y }, { x: 1130, y: 368 }, { x: 1210, y: 370 }] },
+    { key: "meetS1", approach: [{ x: 1112, y: LANE_Y }, { x: 1130, y: 440 }, { x: 1168, y: 444 }] },
+    { key: "meetS2", approach: [{ x: 1112, y: LANE_Y }, { x: 1130, y: 440 }, { x: 1210, y: 444 }] }
+  ];
+  var same = (a, b) => a.x === b.x && a.y === b.y;
+  function routeBetween(a, b) {
+    let i = 0;
+    while (i < a.approach.length && i < b.approach.length && same(a.approach[i], b.approach[i])) i++;
+    const up = a.approach.slice(i).reverse();
+    const pivot = i > 0 ? [a.approach[i - 1]] : [];
+    return [...up, ...pivot, ...b.approach.slice(i)];
+  }
+  function dedupe(pts) {
+    const out = [];
+    for (const p of pts) if (!out.length || !same(out[out.length - 1], p)) out.push(p);
+    return out;
+  }
+  var spotPos = (s) => s.approach[s.approach.length - 1];
+
+  // src/game/scenario.ts
+  var E1 = {
+    speakerId: "aleksey",
+    text: "Есть проблема.\n\nНаш ведущий финансовый аналитик сообщил, что увольняется. Через две недели его последний рабочий день.\n\nОн ведёт значительную часть отчётности, и быстро передать его работу будет сложно.",
+    question: "Что будем делать?",
+    options: [
+      {
+        id: "A",
+        icon: "search",
+        title: "Открыть срочную вакансию",
+        text: "Сразу запустить поиск и направить основную часть HR-ресурса на замену.",
+        reaction: "Хорошо. Чем быстрее появятся кандидаты, тем лучше. Пока будем держаться.",
+        effects: { financeHealth: -5, hrCapacity: -15, turnoverRisk: 5 }
+      },
+      {
+        id: "B",
+        icon: "talk",
+        title: "Поговорить с аналитиком",
+        text: "Сначала лично понять настоящую причину ухода и попробовать его удержать.",
+        reaction: "Давай. Я попрошу Дмитрия зайти к тебе прямо сейчас.",
+        effects: { hrCapacity: -5, employeeTrust: 5 }
+      },
+      {
+        id: "C",
+        icon: "shuffle",
+        title: "Распределить внутри Finance",
+        text: "Временно раздать его задачи команде, а HR оставить на текущих задачах.",
+        reaction: "Попробуем. Но команда и так загружена под закрытие месяца…",
+        effects: { financeHealth: -15, turnoverRisk: 15, employeeTrust: -5 }
+      },
+      {
+        id: "D",
+        icon: "wait",
+        title: "Пусть руководитель решит сам",
+        text: "Finance разбирается самостоятельно. HR подключится позже, если станет серьёзнее.",
+        reaction: "Понял. Попробую разобраться сам.",
+        effects: { financeHealth: -30, turnoverRisk: 20, employeeTrust: -15, ceoTrust: -5 }
+      }
+    ]
+  };
+  var E1B = {
+    speakerId: "dmitry",
+    text: "Честно? Мне предложили зарплату выше примерно на 25%.\n\nНо дело не только в деньгах. Последние месяцы у нас стало слишком много ручной работы — на саму аналитику времени почти не остаётся.",
+    question: "Как поступишь?",
+    options: [
+      {
+        id: "keep",
+        icon: "handshake",
+        title: "Пересмотреть нагрузку и условия",
+        text: "Предложить руководителю Finance пересмотреть нагрузку и обсудить условия сотрудника.",
+        reaction: "Спасибо, что выслушали. Если нагрузку правда пересмотрят — я готов остаться.",
+        effects: { financeHealth: 10, employeeTrust: 10, turnoverRisk: -10 }
+      },
+      {
+        id: "let",
+        icon: "door",
+        title: "Принять решение и спланировать передачу",
+        text: "Поблагодарить за честность и спокойно организовать передачу дел.",
+        reaction: "Понимаю. Я помогу с передачей — постараюсь всё задокументировать.",
+        effects: { financeHealth: -5 }
+      }
+    ]
+  };
+  var E2 = {
+    speakerId: "ceo",
+    text: "Через месяц мы запускаем новое направление.\n\nБез сильного Head of Sales запуск будет под угрозой. Мне нужен человек как можно быстрее.\n\nЭто сейчас главный приоритет бизнеса.",
+    question: "Что ты сделаешь?",
+    options: [
+      {
+        id: "A",
+        icon: "target",
+        title: "Вся HR-команда — на Head of Sales",
+        text: "Полностью переключить HR-команду на поиск Head of Sales.",
+        reaction: "Отлично. Жду первых кандидатов уже на этой неделе.",
+        effects: { strategicProgress: 45, salesHealth: 15, ceoTrust: 15, financeHealth: -20, turnoverRisk: 15, hrCapacity: -15 }
+      },
+      {
+        id: "B",
+        icon: "shield",
+        title: "Приоритет остаётся за Finance",
+        text: "Объяснить CEO риски и продолжить стабилизировать финансовый отдел.",
+        reaction: "Хм. Я тебя услышал. Но запуск ждать не будет.",
+        effects: { strategicProgress: 5, ceoTrust: -15, financeHealth: 10, salesHealth: -10, employeeTrust: 5 }
+      },
+      {
+        id: "C",
+        icon: "split",
+        title: "Разделить HR-ресурс",
+        text: "Часть команды работает над Finance, часть — над поиском Head of Sales.",
+        reaction: "Разумно — если обе задачи действительно будут двигаться. Держи меня в курсе.",
+        effects: { strategicProgress: 30, ceoTrust: 5, financeHealth: -5, hrCapacity: -10, salesHealth: 5 }
+      },
+      {
+        id: "D",
+        icon: "plan",
+        title: "Сначала — план найма",
+        text: "Приостановить обе задачи и разработать полноценный план найма.",
+        reaction: "План — это хорошо. Но через месяц мне нужен человек, а не план.",
+        effects: { strategicProgress: -5, ceoTrust: -20, financeHealth: -10, salesHealth: -10, hrCapacity: 5, turnoverRisk: 5 }
+      }
+    ]
+  };
+  var E3_TEXT = "После ухода аналитика мы не успеваем закрывать отчётность.\n\nКоманда перегружена. Два человека последние дни работают по вечерам.\n\nЕсли ничего не изменить, боюсь, мы потеряем ещё кого-то.";
+  var E3_TEXT_KEPT = "Дмитрий остался — и это очень помогло. Но ручной работы по-прежнему слишком много, а закрытие месяца уже на носу.\n\nКоманда перегружена. Два человека последние дни работают по вечерам.\n\nЕсли ничего не изменить, боюсь, мы кого-то потеряем.";
+  function makeE3(analystKept) {
+    return {
+      speakerId: "marina",
+      text: analystKept ? E3_TEXT_KEPT : E3_TEXT,
+      question: "Что предпримешь?",
+      options: [
+        {
+          id: "A",
+          icon: "return",
+          title: "Вернуть HR к поиску финансиста",
+          text: "Срочно перенаправить ресурс на закрытие финансовой вакансии.",
+          reaction: "Спасибо! Надеюсь, человек появится быстро.",
+          effects: { financeHealth: 25, strategicProgress: -15, ceoTrust: -5, employeeTrust: 10, hrCapacity: -5 }
+        },
+        {
+          id: "B",
+          icon: "contractor",
+          title: "Подрядчик + Head of Sales",
+          text: "Найти временного специалиста для Finance и параллельно продолжить поиск Head of Sales.",
+          reaction: "Подрядчик — это выход. Хотя бы закроем отчётность в срок.",
+          effects: { financeHealth: 20, strategicProgress: 10, hrCapacity: -5, employeeTrust: 5 }
+        },
+        {
+          id: "C",
+          icon: "clock",
+          title: "Попросить потерпеть",
+          text: "Ещё две недели — до закрытия вакансии Head of Sales.",
+          reaction: "…Хорошо. Я передам команде.",
+          effects: { financeHealth: -25, turnoverRisk: 20, employeeTrust: -15, strategicProgress: 10 }
+        },
+        {
+          id: "D",
+          icon: "team",
+          title: "Finance перераспределит сам",
+          text: "Предложить руководителю Finance самостоятельно перераспределить нагрузку.",
+          reaction: "Алексей и так пытается. Но я передам.",
+          effects: { financeHealth: -10, turnoverRisk: 10, employeeTrust: -5 }
+        }
+      ]
+    };
+  }
+  var EXPERT_COMMENT = "В реальной компании здесь не существует одного универсального правильного ответа. Результат зависит от состояния бизнеса, возможностей команды, бюджета, критичности роли и причин увольнения.\n\nЗадача игры — показать, как HR-решения создают последствия во всей системе.";
+
+  // src/components/Finale.tsx
+  var fmt = (m) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(Math.floor(m % 60 / 10) * 10).padStart(2, "0")}`;
+  var DEPT_ORDER = ["finance", "sales", "hr", "product", "marketing", "ceo"];
+  var DEPT_NAME = {
+    finance: "Финансы",
+    sales: "Продажи",
+    hr: "HR",
+    product: "Продукт",
+    marketing: "Маркетинг",
+    ceo: "CEO"
+  };
+  var TURNOVER = {
+    balanced: { text: "в норме", color: LEVEL_COLOR.green },
+    business: { text: "немного выросла", color: LEVEL_COLOR.orange },
+    people: { text: "в норме", color: LEVEL_COLOR.green },
+    loss: { text: "значительно выросла", color: LEVEL_COLOR.red }
+  };
+  function Timeline({ log }) {
+    return /* @__PURE__ */ jsxs("div", { className: "relative mt-3 pl-5", children: [
+      /* @__PURE__ */ jsx("div", { className: "absolute bottom-2 left-[7px] top-2 w-[2px] bg-white/10" }),
+      log.map((e, i) => {
+        const showDay = i === 0 || log[i - 1].day !== e.day;
+        const dot = e.kind === "decision" ? "#60a5fa" : e.kind === "event" ? "#e2e8f0" : e.tone === "bad" ? LEVEL_COLOR.red : e.tone === "warn" ? LEVEL_COLOR.orange : e.tone === "good" ? LEVEL_COLOR.green : "#94a3b8";
+        return /* @__PURE__ */ jsxs(
+          import_framer_motion3.motion.div,
+          {
+            initial: { opacity: 0, x: -8 },
+            animate: { opacity: 1, x: 0 },
+            transition: { delay: i * 0.04 },
+            className: "relative pb-2.5",
+            children: [
+              /* @__PURE__ */ jsx("span", { className: "absolute -left-5 top-[5px] h-3 w-3 rounded-full ring-4 ring-[#121826]", style: { background: dot } }),
+              showDay && /* @__PURE__ */ jsxs("div", { className: "text-[11px] font-black uppercase tracking-wider text-slate-400", children: [
+                "День ",
+                e.day,
+                " · ",
+                fmt(e.minute)
+              ] }),
+              /* @__PURE__ */ jsx(
+                "div",
+                {
+                  className: `text-[13.5px] leading-snug ${e.kind === "decision" ? "font-extrabold text-blue-300" : e.kind === "event" ? "font-bold text-white" : "text-slate-300"}`,
+                  children: e.kind === "decision" ? `→ Твоё решение: «${e.text}»` : e.text
+                }
+              )
+            ]
+          },
+          i
+        );
+      })
+    ] });
+  }
+  function Finale({ result, log, onRestart }) {
+    const [showTimeline, setShowTimeline] = (0, import_react6.useState)(false);
+    const def = ENDINGS[result.ending];
+    const departures = (result.choices.e1b !== "keep" ? 1 : 0) + (result.ending === "loss" ? 1 : 0);
+    const status = { ...def.status };
+    if (result.ending === "loss") status.finance = `Критический риск: ${departures} увольнения`;
+    const insights = [...def.style, firstMoveInsight(result.choices)];
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      /* @__PURE__ */ jsxs(
+        import_framer_motion3.motion.div,
+        {
+          className: "pointer-events-none fixed left-8 top-20 z-40 hidden md:block",
+          initial: { opacity: 0, y: -20 },
+          animate: { opacity: 1, y: 0 },
+          transition: { delay: 0.2 },
+          children: [
+            /* @__PURE__ */ jsx("div", { className: "text-[13px] font-extrabold uppercase tracking-[0.18em] text-blue-300", children: "Итог" }),
+            /* @__PURE__ */ jsx("div", { className: "text-[40px] font-black leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,.6)]", children: "Первый месяц завершён" })
+          ]
+        }
+      ),
+      /* @__PURE__ */ jsxs(
+        import_framer_motion3.motion.aside,
+        {
+          className: "fixed inset-x-3 bottom-3 top-[40%] z-40 overflow-y-auto rounded-3xl border border-white/10 bg-[#121826]/95 p-5 shadow-[0_30px_90px_rgba(0,0,0,.7)] backdrop-blur-md sm:p-7 md:inset-x-auto md:bottom-5 md:right-5 md:top-20 md:w-[min(620px,44vw)]",
+          style: { marginBottom: "env(safe-area-inset-bottom, 0px)" },
+          initial: { x: 120, opacity: 0 },
+          animate: { x: 0, opacity: 1 },
+          transition: { delay: 0.5, type: "spring", damping: 24 },
+          children: [
+            /* @__PURE__ */ jsx("div", { className: "mb-1 text-[13px] font-black text-white/70 md:hidden", children: "Первый месяц завершён" }),
+            /* @__PURE__ */ jsx("div", { className: "text-[12px] font-extrabold uppercase tracking-[0.16em]", style: { color: def.accent }, children: def.subtitle }),
+            /* @__PURE__ */ jsxs("h2", { className: "mt-1 text-[26px] font-black leading-tight text-white [text-wrap:balance] sm:text-[32px]", children: [
+              "«",
+              def.title,
+              "»"
+            ] }),
+            /* @__PURE__ */ jsx("p", { className: "mt-3 text-[15px] leading-relaxed text-slate-300", children: def.comment }),
+            /* @__PURE__ */ jsxs("section", { className: "mt-6", children: [
+              /* @__PURE__ */ jsx("h3", { className: "text-[12px] font-extrabold uppercase tracking-[0.14em] text-slate-400", children: "Состояние компании" }),
+              /* @__PURE__ */ jsxs("div", { className: "mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2", children: [
+                DEPT_ORDER.map((d, i) => /* @__PURE__ */ jsxs(
+                  import_framer_motion3.motion.div,
+                  {
+                    initial: { opacity: 0, y: 8 },
+                    animate: { opacity: 1, y: 0 },
+                    transition: { delay: 0.8 + i * 0.08 },
+                    className: "flex items-start gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-3",
+                    children: [
+                      /* @__PURE__ */ jsx(
+                        "span",
+                        {
+                          className: "mt-1 h-3 w-3 shrink-0 rounded-full",
+                          style: { background: LEVEL_COLOR[def.levels[d]], boxShadow: `0 0 10px ${LEVEL_COLOR[def.levels[d]]}` }
+                        }
+                      ),
+                      /* @__PURE__ */ jsxs("div", { children: [
+                        /* @__PURE__ */ jsx("div", { className: "text-[12px] font-black uppercase tracking-wide text-white", children: DEPT_NAME[d] ?? ROOMS[d].name }),
+                        /* @__PURE__ */ jsx("div", { className: "text-[13px] leading-snug text-slate-300", children: status[d] })
+                      ] })
+                    ]
+                  },
+                  d
+                )),
+                /* @__PURE__ */ jsxs("div", { className: "flex items-center gap-3 rounded-2xl sm:col-span-2 border border-white/10 bg-white/[0.04] p-3", children: [
+                  /* @__PURE__ */ jsx("span", { className: "h-3 w-3 rounded-full", style: { background: TURNOVER[result.ending].color } }),
+                  /* @__PURE__ */ jsxs("div", { className: "text-[13px] text-slate-300", children: [
+                    /* @__PURE__ */ jsx("span", { className: "font-black uppercase tracking-wide text-white", children: "Текучесть" }),
+                    " — ",
+                    TURNOVER[result.ending].text
+                  ] })
+                ] })
+              ] })
+            ] }),
+            /* @__PURE__ */ jsxs("section", { className: "mt-6", children: [
+              /* @__PURE__ */ jsxs("h3", { className: "flex items-center gap-2 text-[12px] font-extrabold uppercase tracking-[0.14em] text-slate-400", children: [
+                /* @__PURE__ */ jsx(Sparkles, { size: 14 }),
+                " Твой стиль решений"
+              ] }),
+              /* @__PURE__ */ jsx("ul", { className: "mt-3 space-y-2", children: insights.map((t, i) => /* @__PURE__ */ jsx(
+                import_framer_motion3.motion.li,
+                {
+                  initial: { opacity: 0, x: 10 },
+                  animate: { opacity: 1, x: 0 },
+                  transition: { delay: 1.4 + i * 0.15 },
+                  className: "rounded-2xl bg-blue-500/10 px-4 py-3 text-[14.5px] font-semibold leading-snug text-blue-50",
+                  children: t
+                },
+                t
+              )) })
+            ] }),
+            /* @__PURE__ */ jsxs("section", { className: "mt-6", children: [
+              /* @__PURE__ */ jsxs(
+                "button",
+                {
+                  type: "button",
+                  onClick: () => setShowTimeline((s) => !s),
+                  className: "flex w-full items-center justify-between rounded-2xl border border-white/10 bg-white/[0.05] px-4 py-3 text-[14px] font-extrabold text-white hover:bg-white/[0.09] focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-300",
+                  children: [
+                    "Посмотреть мои решения",
+                    /* @__PURE__ */ jsx(ChevronDown, { size: 18, className: `transition-transform ${showTimeline ? "rotate-180" : ""}` })
+                  ]
+                }
+              ),
+              /* @__PURE__ */ jsx(import_framer_motion3.AnimatePresence, { children: showTimeline && /* @__PURE__ */ jsx(import_framer_motion3.motion.div, { initial: { height: 0, opacity: 0 }, animate: { height: "auto", opacity: 1 }, exit: { height: 0, opacity: 0 }, className: "overflow-hidden", children: /* @__PURE__ */ jsx(Timeline, { log }) }) })
+            ] }),
+            /* @__PURE__ */ jsxs("section", { className: "mt-6 rounded-2xl border border-amber-300/20 bg-amber-300/[0.06] p-4", children: [
+              /* @__PURE__ */ jsxs("h3", { className: "flex items-center gap-2 text-[12px] font-extrabold uppercase tracking-[0.14em] text-amber-200", children: [
+                /* @__PURE__ */ jsx(GraduationCap, { size: 16 }),
+                " Комментарий HR-эксперта"
+              ] }),
+              EXPERT_COMMENT.split("\n\n").map((p) => /* @__PURE__ */ jsx("p", { className: "mt-2 text-[14px] leading-relaxed text-slate-200", children: p }, p))
+            ] }),
+            /* @__PURE__ */ jsxs(
+              import_framer_motion3.motion.button,
+              {
+                type: "button",
+                onClick: onRestart,
+                whileHover: { scale: 1.02 },
+                whileTap: { scale: 0.98 },
+                className: "mt-6 flex w-full items-center justify-center gap-2 rounded-2xl bg-blue-500 py-4 text-[16px] font-black text-white shadow-[0_12px_36px_rgba(59,130,246,.45)] hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-200",
+                children: [
+                  /* @__PURE__ */ jsx(RotateCcw, { size: 18 }),
+                  " Пройти ещё раз"
+                ]
+              }
+            )
+          ]
+        }
+      )
+    ] });
+  }
+
+  // src/components/Hud.tsx
+  var import_framer_motion4 = __toESM(require_framer_motion(), 1);
+  var import_react8 = __toESM(require_react(), 1);
+
+  // src/game/useGame.ts
+  var import_react7 = __toESM(require_react(), 1);
+  var DAY_START = 9 * 60;
+  var DAY_END = 19 * 60;
+  var RATE = 40;
+  var FAST_RATE = 800;
+  var LAST_DAY = 30;
+  var CAMS = {
+    overview: { x: 640, y: 400, scale: 1 },
+    hr: { x: 668, y: 590, scale: 1.55, mode: "dialog" },
+    finance: { x: 640, y: 175, scale: 1.3 },
+    ceo: { x: 1060, y: 620, scale: 1.3 },
+    far: { x: 640, y: 400, scale: 0.56, mode: "side" }
+  };
+  var ALL_GREEN = {
+    finance: "green",
+    sales: "green",
+    product: "green",
+    marketing: "green",
+    hr: "green",
+    ceo: "green"
+  };
+  function initialPeople() {
+    const out = {};
+    for (const e of CAST) {
+      const desk = DESKS[e.deskId];
+      out[e.id] = e.hidden ? { pos: spotPos(ENTRANCE), spot: ENTRANCE, path: [], pathId: 0, status: "hidden", mark: null, bubble: null } : { pos: desk.seat, spot: desk.spot, path: [], pathId: 0, status: "seated", mark: null, bubble: null };
+    }
+    return out;
+  }
+  function initialDesks() {
+    const out = {};
+    for (const d of Object.values(DESKS)) out[d.id] = "empty";
+    for (const e of CAST) if (!e.hidden) out[e.deskId] = "occupied";
+    return out;
+  }
+  var pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+  var clamp = (v) => Math.max(0, Math.min(100, v));
+  var homeSpot = (id) => DESKS[CAST_BY_ID[id].deskId].spot;
+  function useGame() {
+    const [phase, setPhase] = (0, import_react7.useState)("intro");
+    const [clock, setClock] = (0, import_react7.useState)({ day: 1, minute: DAY_START });
+    const [speed, setSpeedState] = (0, import_react7.useState)(1);
+    const [people, setPeople] = (0, import_react7.useState)(initialPeople);
+    const [desks, setDesks] = (0, import_react7.useState)(initialDesks);
+    const [levels, setLevels] = (0, import_react7.useState)(ALL_GREEN);
+    const [hrTasks, setHrTasks] = (0, import_react7.useState)([]);
+    const [toasts, setToasts] = (0, import_react7.useState)([]);
+    const [dialog, setDialog] = (0, import_react7.useState)(null);
+    const [camera, setCamera] = (0, import_react7.useState)(CAMS.overview);
+    const [fx, setFx] = (0, import_react7.useState)([]);
+    const [fast, setFast] = (0, import_react7.useState)(false);
+    const [blocked, setBlocked] = (0, import_react7.useState)(false);
+    const [log, setLog] = (0, import_react7.useState)([]);
+    const [result, setResult] = (0, import_react7.useState)(null);
+    const ref = (0, import_react7.useRef)(null);
+    if (!ref.current) {
+      ref.current = {
+        run: 0,
+        people: initialPeople(),
+        levels: { ...ALL_GREEN },
+        tasks: [],
+        clock: { day: 1, minute: DAY_START },
+        speed: 1,
+        beats: [],
+        seq: 0,
+        blocked: false,
+        holdUntil: 0,
+        fast: false,
+        arrive: {},
+        dialog: null,
+        dialogResolve: null,
+        choices: {},
+        stats: { ...INITIAL_STATS },
+        busy: /* @__PURE__ */ new Set(),
+        pacing: /* @__PURE__ */ new Set(),
+        occupied: /* @__PURE__ */ new Set(),
+        ending: null,
+        uid: 0
+      };
+    }
+    const R2 = ref.current;
+    const alive = (run) => run === R2.run;
+    const wait = (ms) => new Promise((res) => setTimeout(res, ms));
+    const waitActive = async (run) => {
+      while ((R2.blocked || R2.speed === 0) && alive(run)) await wait(350);
+    };
+    const patch = (id, p) => {
+      R2.people = { ...R2.people, [id]: { ...R2.people[id], ...p } };
+      setPeople(R2.people);
+    };
+    const mark = (id, m) => patch(id, { mark: m });
+    const walkTo = (id, spot, fastWalk = false) => new Promise((resolve) => {
+      const p = R2.people[id];
+      const pts = dedupe([p.pos, ...routeBetween(p.spot, spot)]);
+      const prev = R2.arrive[id];
+      delete R2.arrive[id];
+      prev?.();
+      if (pts.length < 2) {
+        patch(id, { spot, path: [], status: spot.seated ? "seated" : "standing" });
+        resolve();
+        return;
+      }
+      R2.arrive[id] = resolve;
+      patch(id, { spot, path: pts, pathId: p.pathId + 1, pos: pts[pts.length - 1], status: "walking", fast: fastWalk });
+    });
+    const onArrive = (0, import_react7.useCallback)((id, pathId) => {
+      const p = R2.people[id];
+      if (!p || p.pathId !== pathId || p.status !== "walking") return;
+      patch(id, { status: p.spot.seated ? "seated" : "standing" });
+      const res = R2.arrive[id];
+      delete R2.arrive[id];
+      res?.();
+    }, []);
+    const setDesk = (id, s) => setDesks((d) => ({ ...d, [id]: s }));
+    const setLevel = (d, l) => {
+      R2.levels = { ...R2.levels, [d]: l };
+      setLevels(R2.levels);
+    };
+    const worsen = (d) => setLevel(d, LEVELS[Math.min(3, LEVEL_RANK[R2.levels[d]] + 1)]);
+    const atLeast = (d, l) => {
+      if (LEVEL_RANK[R2.levels[d]] < LEVEL_RANK[l]) setLevel(d, l);
+    };
+    const toast = (icon, text, tone = "info") => {
+      const id = ++R2.uid;
+      setToasts((t) => [...t.slice(-2), { id, icon, text, tone }]);
+      setTimeout(() => setToasts((t) => t.filter((x) => x.id !== id)), 7e3);
+    };
+    const addLog = (kind, text, tone) => setLog((l) => [...l, { day: R2.clock.day, minute: Math.floor(R2.clock.minute), kind, text, tone }]);
+    const consequence = (text, icon, tone = "info") => {
+      addLog("consequence", text, tone);
+      if (icon) toast(icon, text, tone);
+    };
+    const pop = (dept, emoji) => {
+      const id = ++R2.uid;
+      setFx((f) => [...f, { id, dept, emoji }]);
+      setTimeout(() => setFx((f) => f.filter((x) => x.id !== id)), 2800);
+    };
+    const hasTask = (id) => R2.tasks.some((t) => t.id === id);
+    const addTask = (t) => {
+      R2.tasks = [...R2.tasks.filter((x) => x.id !== t.id), t].slice(-3);
+      setHrTasks(R2.tasks);
+    };
+    const removeTask = (id) => {
+      R2.tasks = R2.tasks.filter((x) => x.id !== id);
+      setHrTasks(R2.tasks);
+    };
+    const at = (day, minute, fn, hold2 = 2600) => {
+      R2.beats.push({ at: day * 1440 + minute, fn, hold: hold2, seq: R2.seq++ });
+      R2.beats.sort((a, b) => a.at - b.at || a.seq - b.seq);
+    };
+    const block = (b) => {
+      R2.blocked = b;
+      setBlocked(b);
+      if (b && R2.fast) {
+        R2.fast = false;
+        setFast(false);
+      }
+    };
+    const hold = (ms) => {
+      R2.holdUntil = performance.now() + ms;
+    };
+    const apply = (e) => {
+      for (const k of Object.keys(e)) R2.stats[k] = clamp(R2.stats[k] + (e[k] ?? 0));
+    };
+    const syncHr = () => {
+      const c = R2.stats.hrCapacity;
+      const l = c >= 70 ? "green" : c >= 55 ? "yellow" : c >= 40 ? "orange" : "red";
+      setLevel("hr", l);
+      HR_STAFF.forEach((id) => mark(id, LEVEL_RANK[l] >= 2 ? "tired" : null));
+    };
+    const ask = (data) => new Promise((res) => {
+      R2.dialogResolve = res;
+      R2.dialog = { data, chosen: null };
+      setDialog(R2.dialog);
+    });
+    const choose = (0, import_react7.useCallback)((o) => {
+      if (!R2.dialog || R2.dialog.chosen) return;
+      R2.dialog = { ...R2.dialog, chosen: o };
+      setDialog(R2.dialog);
+    }, []);
+    const proceed = (0, import_react7.useCallback)(() => {
+      const d = R2.dialog;
+      if (!d?.chosen) return;
+      const res = R2.dialogResolve;
+      R2.dialog = null;
+      R2.dialogResolve = null;
+      setDialog(null);
+      res?.(d.chosen);
+    }, []);
+    const leave = async (id) => {
+      const run = R2.run;
+      R2.pacing.delete(id);
+      patch(id, { mark: null, bubble: "📦" });
+      await wait(1600);
+      if (!alive(run)) return;
+      patch(id, { bubble: null, carrying: true });
+      setDesk(CAST_BY_ID[id].deskId, "left");
+      await walkTo(id, ENTRANCE);
+      if (!alive(run)) return;
+      patch(id, { status: "gone" });
+    };
+    const hire = async (id) => {
+      const run = R2.run;
+      const deskId = CAST_BY_ID[id].deskId;
+      patch(id, { status: "standing", pos: spotPos(ENTRANCE), spot: ENTRANCE, path: [], mark: "new", carrying: false });
+      await wait(80);
+      await walkTo(id, DESKS[deskId].spot);
+      if (!alive(run)) return;
+      setDesk(deskId, "occupied");
+      await wait(9e3);
+      if (alive(run) && R2.people[id].mark === "new") mark(id, null);
+    };
+    const startPacing = async (id) => {
+      if (R2.pacing.has(id)) return;
+      R2.pacing.add(id);
+      const run = R2.run;
+      const emp = CAST_BY_ID[id];
+      while (R2.pacing.has(id) && alive(run)) {
+        await waitActive(run);
+        const others = Object.values(DESKS).filter((d) => d.room === emp.dept && d.id !== emp.deskId);
+        await walkTo(id, pick(others).standSpot);
+        if (!alive(run)) return;
+        patch(id, { bubble: pick(["📑", "📎", "😓", "⏰"]) });
+        await wait(1300);
+        if (!alive(run)) return;
+        patch(id, { bubble: null });
+        await walkTo(id, homeSpot(id));
+        await wait(1600 + Math.random() * 1800);
+      }
+    };
+    const wander = async (id, run) => {
+      R2.busy.add(id);
+      const emp = CAST_BY_ID[id];
+      let dest;
+      if (Math.random() < 0.3) {
+        const mates = CAST.filter((e) => e.dept === emp.dept && e.id !== id && R2.people[e.id].status === "seated");
+        dest = mates.length ? DESKS[pick(mates).deskId].standSpot : pick(WANDER_SPOTS);
+      } else {
+        const free = WANDER_SPOTS.filter((s) => !R2.occupied.has(s.key));
+        dest = free.length ? pick(free) : DESKS[emp.deskId].standSpot;
+      }
+      R2.occupied.add(dest.key);
+      await walkTo(id, dest);
+      if (!alive(run)) return;
+      const k = dest.key;
+      patch(id, { bubble: k.startsWith("coffee") ? "☕" : k.startsWith("meet") ? "💬" : k.startsWith("stand") ? "💬" : "😌" });
+      await wait(2600 + Math.random() * 3500);
+      await waitActive(run);
+      if (!alive(run)) return;
+      patch(id, { bubble: null });
+      R2.occupied.delete(dest.key);
+      await walkTo(id, homeSpot(id));
+      R2.busy.delete(id);
+    };
+    const event1 = async () => {
+      const run = R2.run;
+      block(true);
+      setLevel("finance", "yellow");
+      setCamera(CAMS.finance);
+      await wait(800);
+      mark("aleksey", "alert");
+      await wait(1900);
+      if (!alive(run)) return;
+      addLog("event", "Руководитель Finance: ведущий финансовый аналитик увольняется.");
+      setCamera(CAMS.overview);
+      await walkTo("aleksey", HR_VISITOR, true);
+      if (!alive(run)) return;
+      mark("aleksey", null);
+      setCamera(CAMS.hr);
+      await wait(600);
+      const c = await ask(E1);
+      if (!alive(run)) return;
+      R2.choices.e1 = c.id;
+      apply(c.effects);
+      addLog("decision", c.title);
+      let c2 = null;
+      void walkTo("aleksey", homeSpot("aleksey"), true);
+      if (c.id === "B") {
+        setCamera(CAMS.overview);
+        await wait(900);
+        await walkTo("dmitry", HR_VISITOR, true);
+        if (!alive(run)) return;
+        setCamera(CAMS.hr);
+        await wait(500);
+        addLog("event", "Разговор с Дмитрием: оффер +25% и слишком много ручной работы.");
+        c2 = await ask(E1B);
+        if (!alive(run)) return;
+        R2.choices.e1b = c2.id;
+        apply(c2.effects);
+        addLog("decision", c2.title);
+        void walkTo("dmitry", homeSpot("dmitry"), true);
+      }
+      setCamera(CAMS.overview);
+      afterE1(c.id, c2?.id ?? null);
+      syncHr();
+      block(false);
+      hold(4500);
+    };
+    const afterE1 = (e1, e1b) => {
+      switch (e1) {
+        case "A":
+          addTask({ id: "fin-search", icon: "🔍", label: "Поиск: финансовый аналитик" });
+          mark("pasha", null);
+          consequence("Поиск финансового аналитика начат", "🔍", "info");
+          break;
+        case "B":
+          if (e1b === "keep") {
+            addTask({ id: "fin-support", icon: "🤝", label: "Finance: пересмотр нагрузки" });
+            at(2, 11 * 60, () => consequence("Алексей и Дмитрий пересматривают распределение ручной работы", "🤝", "info"));
+            at(3, 15 * 60, () => {
+              consequence("Дмитрий отозвал заявление об увольнении", "✅", "good");
+              pop("finance", "🙂");
+            });
+          } else {
+            consequence("Дмитрий начал передачу дел. Последний рабочий день — через две недели", "📄", "info");
+          }
+          break;
+        case "C":
+          at(3, 12 * 60, () => {
+            setLevel("finance", "orange");
+            mark("marina", "tired");
+            addLog("consequence", "Finance: задачи аналитика разошлись по команде — нагрузка растёт", "warn");
+          });
+          break;
+        case "D":
+          at(2, 14 * 60, () => {
+            setLevel("finance", "orange");
+            mark("marina", "tired");
+            addLog("consequence", "Finance: ситуация с уходом аналитика осталась без поддержки HR", "warn");
+          });
+          at(4, 11 * 60, () => {
+            setLevel("finance", "red");
+            mark("oleg", "tired");
+            void startPacing("katya");
+            consequence("В Finance сорваны сроки по отчётности", "⚠️", "bad");
+          });
+          break;
+      }
+      if (e1b !== "keep") {
+        at(11, 16 * 60, () => {
+          void leave("dmitry");
+          consequence("Последний рабочий день Дмитрия — ведущего финансового аналитика", "📦", "warn");
+        }, 5e3);
+      }
+    };
+    const event2 = async () => {
+      const run = R2.run;
+      block(true);
+      toast("📣", "CEO хочет поговорить", "info");
+      setCamera(CAMS.ceo);
+      mark("ceo", "alert");
+      await wait(2e3);
+      if (!alive(run)) return;
+      addLog("event", "CEO потребовал срочно найти Head of Sales для запуска нового направления.");
+      setCamera(CAMS.overview);
+      await walkTo("ceo", HR_VISITOR, true);
+      if (!alive(run)) return;
+      mark("ceo", null);
+      setCamera(CAMS.hr);
+      await wait(600);
+      const c = await ask(E2);
+      if (!alive(run)) return;
+      R2.choices.e2 = c.id;
+      apply(c.effects);
+      addLog("decision", c.title);
+      void walkTo("ceo", homeSpot("ceo"), true);
+      setCamera(CAMS.overview);
+      afterE2(c.id);
+      syncHr();
+      block(false);
+      hold(4500);
+    };
+    const afterE2 = (c) => {
+      switch (c) {
+        case "A":
+          if (hasTask("fin-search")) {
+            removeTask("fin-search");
+            consequence("Поиск финансового аналитика поставлен на паузу", "⏸️", "warn");
+          }
+          removeTask("fin-support");
+          addTask({ id: "hos", icon: "🎯", label: "Head of Sales — поиск начат" });
+          pop("sales", "📈");
+          mark("ceo", "happy");
+          at(6, 10 * 60, () => mark("ceo", null));
+          at(7, 11 * 60, () => {
+            worsen("finance");
+            atLeast("finance", "orange");
+            void startPacing("katya");
+            mark("oleg", "tired");
+            addLog("consequence", "Finance: команда задерживается по вечерам — задачи аналитика никто не забрал", "warn");
+          });
+          at(9, 15 * 60, () => pop("finance", "😓"));
+          break;
+        case "B":
+          addTask({ id: "fin-focus", icon: "🛡️", label: "Приоритет: стабилизация Finance" });
+          mark("ceo", "angry");
+          at(7, 12 * 60, () => {
+            worsen("sales");
+            addLog("consequence", "Sales: без руководителя команда теряет темп подготовки к запуску", "warn");
+          });
+          at(9, 11 * 60, () => consequence("CEO сам подключил кадровое агентство к поиску Head of Sales", "📞", "warn"));
+          break;
+        case "C":
+          addTask({ id: "hos", icon: "🎯", label: "Head of Sales — поиск начат" });
+          if (!hasTask("fin-search")) addTask({ id: "fin-support", icon: "🤝", label: "Поддержка Finance" });
+          pop("sales", "📈");
+          at(8, 12 * 60, () => mark("oleg", "tired"));
+          at(9, 14 * 60, () => consequence("Первые кандидаты на Head of Sales — на интервью у CEO", "👥", "good"));
+          break;
+        case "D":
+          removeTask("fin-search");
+          removeTask("fin-support");
+          addTask({ id: "plan", icon: "📋", label: "Разработка плана найма" });
+          at(7, 11 * 60, () => {
+            worsen("sales");
+            mark("ceo", "angry");
+            addLog("consequence", "Sales: подготовка к запуску идёт без руководителя", "warn");
+          });
+          at(8, 15 * 60, () => {
+            worsen("finance");
+            mark("oleg", "tired");
+            addLog("consequence", "Finance: проблема с отчётностью осталась без внимания", "warn");
+          });
+          at(10, 10 * 60, () => consequence("CEO спрашивает, когда будут первые кандидаты", "❓", "warn"));
+          break;
+      }
+    };
+    const event3 = async () => {
+      const run = R2.run;
+      block(true);
+      atLeast("finance", "yellow");
+      setCamera(CAMS.finance);
+      mark("marina", "alert");
+      await wait(1900);
+      if (!alive(run)) return;
+      addLog("event", "Finance сообщил о перегрузке: люди работают по вечерам.");
+      setCamera(CAMS.overview);
+      await walkTo("marina", HR_VISITOR, true);
+      if (!alive(run)) return;
+      mark("marina", "tired");
+      setCamera(CAMS.hr);
+      await wait(600);
+      const c = await ask(makeE3(R2.choices.e1b === "keep"));
+      if (!alive(run)) return;
+      R2.choices.e3 = c.id;
+      apply(c.effects);
+      addLog("decision", c.title);
+      void walkTo("marina", homeSpot("marina"), true);
+      setCamera(CAMS.overview);
+      afterE3(c.id);
+      syncHr();
+      R2.ending = computeEnding(R2.stats);
+      finalArc(R2.ending);
+      block(false);
+      hold(4500);
+    };
+    const afterE3 = (c) => {
+      switch (c) {
+        case "A":
+          if (hasTask("hos")) {
+            removeTask("hos");
+            addTask({ id: "hos-paused", icon: "⏸️", label: "Head of Sales — на паузе", muted: true });
+          }
+          removeTask("plan");
+          addTask({ id: "fin-search", icon: "🔍", label: "Срочно: финансовый аналитик" });
+          mark("ceo", "angry");
+          consequence("HR-команда вернулась к поиску финансиста", "🔁", "info");
+          break;
+        case "B":
+          addTask({ id: "contractor", icon: "🧾", label: "Подрядчик для Finance" });
+          at(13, 11 * 60, () => {
+            void hire("contractor");
+            consequence("Подрядчик подключился к закрытию отчётности", "🧾", "good");
+          }, 4e3);
+          break;
+        case "C":
+          mark("oleg", "tired");
+          mark("katya", "tired");
+          at(13, 15 * 60, () => {
+            worsen("finance");
+            addLog("consequence", "Finance: команда «терпит» — переработки продолжаются", "warn");
+          });
+          break;
+        case "D":
+          void startPacing("aleksey");
+          at(13, 12 * 60, () => pop("finance", "😓"));
+          break;
+      }
+    };
+    const clearFinanceStress = () => {
+      R2.pacing.delete("katya");
+      R2.pacing.delete("aleksey");
+      ["marina", "oleg", "katya"].forEach((id) => R2.people[id]?.mark === "tired" && mark(id, null));
+    };
+    const finalArc = (end) => {
+      const analystLeft = R2.choices.e1b !== "keep";
+      const hosFound = (text) => {
+        void hire("hos");
+        removeTask("hos");
+        removeTask("hos-paused");
+        consequence(text, "🎯", "good");
+        pop("sales", "🎉");
+        mark("ceo", "happy");
+      };
+      switch (end) {
+        case "balanced":
+          at(15, 11 * 60, () => {
+            setLevel("finance", "yellow");
+            clearFinanceStress();
+            addLog("consequence", "Finance: нагрузка начала снижаться", "good");
+          });
+          at(18, 12 * 60, () => hosFound("Head of Sales найден"), 5e3);
+          if (analystLeft)
+            at(21, 11 * 60, () => {
+              void hire("analyst");
+              removeTask("fin-search");
+              consequence("Новый финансовый аналитик вышел на работу", "✨", "good");
+            }, 5e3);
+          at(23, 15 * 60, () => {
+            setLevel("finance", "green");
+            removeTask("contractor");
+            removeTask("fin-support");
+            consequence("Finance закрыл отчётность в срок", "✅", "good");
+            pop("finance", "👍");
+          });
+          at(25, 12 * 60, () => {
+            setLevel("hr", "yellow");
+            HR_STAFF.forEach((id) => mark(id, null));
+          });
+          break;
+        case "business":
+          at(16, 11 * 60, () => hosFound("Head of Sales найден — быстрее, чем ожидал CEO"), 5e3);
+          at(18, 12 * 60, () => {
+            atLeast("finance", "orange");
+            mark("oleg", "tired");
+            mark("marina", "tired");
+            void startPacing("katya");
+            setLevel("hr", "orange");
+            HR_STAFF.forEach((id) => mark(id, "tired"));
+            consequence("Finance и HR работают на пределе: переработки стали нормой", "😓", "warn");
+          });
+          at(23, 12 * 60, () => {
+            patch("oleg", { bubble: "📨" });
+            consequence("Сотрудник Finance обсуждает оффер другой компании", "📨", "warn");
+          });
+          break;
+        case "people":
+          at(15, 11 * 60, () => {
+            setLevel("finance", "yellow");
+            clearFinanceStress();
+            addLog("consequence", "Finance: нагрузка начала снижаться", "good");
+          });
+          if (analystLeft)
+            at(17, 11 * 60, () => {
+              void hire("analyst");
+              removeTask("fin-search");
+              consequence("Новый финансовый аналитик вышел на работу", "✨", "good");
+            }, 5e3);
+          at(18, 15 * 60, () => {
+            setLevel("sales", "orange");
+            mark("ceo", "angry");
+            consequence("Подготовка к запуску нового направления отстаёт от графика", "⏳", "warn");
+          });
+          at(21, 12 * 60, () => {
+            setLevel("finance", "green");
+            removeTask("fin-focus");
+            consequence("Finance стабилизирован: отчётность закрыта", "✅", "good");
+            pop("finance", "👍");
+          });
+          at(23, 14 * 60, () => {
+            removeTask("hos");
+            removeTask("hos-paused");
+            consequence("Head of Sales найден, но выйдет только через месяц. Запуск нового направления перенесён", "🎯", "warn");
+          });
+          break;
+        case "loss":
+          at(15, 11 * 60, () => {
+            atLeast("hr", "orange");
+            HR_STAFF.forEach((id) => mark(id, "tired"));
+            addLog("consequence", "HR-команда перегружена: задачи копятся", "warn");
+          });
+          at(18, 11 * 60, () => {
+            setLevel("finance", "red");
+            void startPacing("katya");
+            void leave("oleg");
+            consequence("Ещё один сотрудник Finance подал заявление на увольнение", "📦", "bad");
+          }, 5e3);
+          at(20, 12 * 60, () => {
+            atLeast("sales", "orange");
+            removeTask("hos");
+            removeTask("plan");
+            consequence("Финалист на позицию Head of Sales принял другой оффер", "❌", "bad");
+          });
+          at(23, 14 * 60, () => {
+            setLevel("hr", "red");
+            mark("ceo", "angry");
+            consequence("CEO недоволен: запуск нового направления под угрозой", "😠", "bad");
+          });
+          break;
+      }
+    };
+    const finale = async () => {
+      const run = R2.run;
+      block(true);
+      R2.pacing.clear();
+      const end = R2.ending ?? computeEnding(R2.stats);
+      R2.levels = { ...ENDINGS[end].levels };
+      setLevels(R2.levels);
+      setToasts([]);
+      setCamera(CAMS.far);
+      await wait(1900);
+      if (!alive(run)) return;
+      setResult({ ending: end, choices: { ...R2.choices } });
+      setPhase("finale");
+    };
+    const reset = () => {
+      R2.run++;
+      R2.people = initialPeople();
+      R2.levels = { ...ALL_GREEN };
+      R2.tasks = [];
+      R2.clock = { day: 1, minute: DAY_START };
+      R2.beats = [];
+      R2.blocked = false;
+      R2.fast = false;
+      R2.holdUntil = 0;
+      R2.arrive = {};
+      R2.dialog = null;
+      R2.dialogResolve = null;
+      R2.choices = {};
+      R2.stats = { ...INITIAL_STATS };
+      R2.busy.clear();
+      R2.pacing.clear();
+      R2.occupied.clear();
+      R2.ending = null;
+      setPeople(R2.people);
+      setDesks(initialDesks());
+      setLevels(R2.levels);
+      setHrTasks([]);
+      setToasts([]);
+      setDialog(null);
+      setCamera(CAMS.overview);
+      setFx([]);
+      setFast(false);
+      setBlocked(false);
+      setLog([]);
+      setResult(null);
+      setClock(R2.clock);
+    };
+    const start = (0, import_react7.useCallback)(() => {
+      reset();
+      setPhase("playing");
+      at(1, 11 * 60, () => void event1(), 0);
+      at(5, 10 * 60 + 30, () => void event2(), 0);
+      at(12, 10 * 60, () => void event3(), 0);
+      at(LAST_DAY, 11 * 60, () => void finale(), 0);
+    }, []);
+    const restart = (0, import_react7.useCallback)(() => {
+      reset();
+      setPhase("intro");
+    }, []);
+    const setSpeed = (0, import_react7.useCallback)((s) => {
+      R2.speed = s;
+      setSpeedState(s);
+    }, []);
+    (0, import_react7.useEffect)(() => {
+      if (phase !== "playing") return;
+      let raf = 0;
+      let last = performance.now();
+      let lastKey = "";
+      const loop = (t) => {
+        const dt = Math.min(0.1, (t - last) / 1e3);
+        last = t;
+        if (!R2.blocked && R2.speed > 0) {
+          const c = R2.clock;
+          const next = R2.beats[0];
+          const isFast = !!next && Math.floor(next.at / 1440) > c.day && t > R2.holdUntil;
+          if (isFast !== R2.fast) {
+            R2.fast = isFast;
+            setFast(isFast);
+          }
+          let minute = c.minute + (isFast ? FAST_RATE : RATE) * R2.speed * dt;
+          let day = c.day;
+          if (minute >= DAY_END) {
+            day += 1;
+            minute = DAY_START;
+          }
+          if (next && day * 1440 + minute >= next.at) {
+            day = Math.floor(next.at / 1440);
+            minute = next.at % 1440;
+          }
+          R2.clock = { day, minute };
+          const key = `${day}:${Math.floor(minute / 10)}`;
+          if (key !== lastKey) {
+            lastKey = key;
+            setClock(R2.clock);
+          }
+          while (R2.beats.length && R2.beats[0].at <= day * 1440 + minute && !R2.blocked) {
+            const b = R2.beats.shift();
+            R2.holdUntil = t + b.hold;
+            b.fn();
+          }
+        } else if (R2.fast) {
+          R2.fast = false;
+          setFast(false);
+        }
+        raf = requestAnimationFrame(loop);
+      };
+      raf = requestAnimationFrame(loop);
+      return () => cancelAnimationFrame(raf);
+    }, [phase]);
+    (0, import_react7.useEffect)(() => {
+      if (phase !== "playing") return;
+      const run = R2.run;
+      const t1 = setInterval(() => {
+        if (R2.blocked || R2.speed === 0 || R2.busy.size >= 4) return;
+        const candidates = CAST.filter((e) => !SCRIPTED.has(e.id) && !R2.busy.has(e.id) && R2.people[e.id].status === "seated");
+        if (candidates.length) void wander(pick(candidates).id, run);
+      }, 1600);
+      const t2 = setInterval(() => {
+        if (R2.blocked) return;
+        const seated = CAST.filter((e2) => !e2.isPlayer && R2.people[e2.id].status === "seated" && !R2.people[e2.id].bubble && !R2.people[e2.id].mark);
+        if (!seated.length) return;
+        const e = pick(seated);
+        patch(e.id, { bubble: pick(["💬", "📊", "💡", "📞", "✍️", "🤔", "😄", "📈"]) });
+        setTimeout(() => {
+          if (alive(run) && R2.people[e.id].status === "seated") patch(e.id, { bubble: null });
+        }, 2300);
+      }, 2400);
+      return () => {
+        clearInterval(t1);
+        clearInterval(t2);
+      };
+    }, [phase]);
+    return {
+      phase,
+      clock,
+      speed,
+      people,
+      desks,
+      levels,
+      hrTasks,
+      toasts,
+      dialog,
+      camera,
+      fx,
+      fast,
+      blocked,
+      log,
+      result,
+      start,
+      restart,
+      setSpeed,
+      choose,
+      proceed,
+      onArrive
+    };
+  }
+
+  // src/components/Hud.tsx
+  var fmt2 = (m) => `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(Math.floor(m % 60 / 10) * 10).padStart(2, "0")}`;
+  function TopBar({
+    day,
+    minute,
+    speed,
+    blocked,
+    fast,
+    onSpeed
+  }) {
+    return /* @__PURE__ */ jsxs(
+      import_framer_motion4.motion.div,
+      {
+        initial: { y: -70 },
+        animate: { y: 0 },
+        className: "pointer-events-none fixed inset-x-0 top-0 z-20 box-content flex h-14 items-center justify-between gap-2 px-3 sm:h-16 sm:px-6",
+        style: { paddingTop: "env(safe-area-inset-top, 0px)" },
+        children: [
+          /* @__PURE__ */ jsxs("div", { className: "pointer-events-auto flex shrink-0 items-center gap-3", children: [
+            /* @__PURE__ */ jsx("div", { className: "grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 text-[15px] font-black text-white shadow-lg sm:h-9 sm:w-9", children: "G" }),
+            /* @__PURE__ */ jsxs("div", { className: "hidden leading-tight sm:block", children: [
+              /* @__PURE__ */ jsx("div", { className: "text-[15px] font-black text-white", children: "GrowTech" }),
+              /* @__PURE__ */ jsx("div", { className: "text-[11px] font-semibold text-slate-400", children: "240 сотрудников · Месяц 1" })
+            ] })
+          ] }),
+          /* @__PURE__ */ jsxs("div", { className: "pointer-events-auto flex min-w-0 items-center gap-2 rounded-2xl border border-white/10 bg-[#121826]/90 py-1.5 pl-3 pr-1.5 shadow-xl backdrop-blur sm:gap-3 sm:pl-5", children: [
+            /* @__PURE__ */ jsxs("div", { className: "flex items-baseline gap-1.5 whitespace-nowrap text-[15px] sm:gap-2 sm:text-[18px]", children: [
+              /* @__PURE__ */ jsx("div", { className: "relative h-6 overflow-hidden", children: /* @__PURE__ */ jsx(import_framer_motion4.AnimatePresence, { mode: "popLayout", initial: false, children: /* @__PURE__ */ jsxs(
+                import_framer_motion4.motion.span,
+                {
+                  initial: { y: 22, opacity: 0 },
+                  animate: { y: 0, opacity: 1 },
+                  exit: { y: -22, opacity: 0 },
+                  transition: { duration: 0.22 },
+                  className: "block font-black text-white",
+                  children: [
+                    "День ",
+                    day
+                  ]
+                },
+                day
+              ) }) }),
+              /* @__PURE__ */ jsxs("span", { className: "font-bold tabular-nums text-slate-300", children: [
+                "· ",
+                fmt2(minute)
+              ] })
+            ] }),
+            /* @__PURE__ */ jsx("div", { className: "mx-1 hidden h-1.5 w-24 overflow-hidden rounded-full bg-white/10 md:block", children: /* @__PURE__ */ jsx(import_framer_motion4.motion.div, { className: "h-full rounded-full bg-blue-400", animate: { width: `${Math.min(day, LAST_DAY) / LAST_DAY * 100}%` } }) }),
+            /* @__PURE__ */ jsxs("div", { className: "flex gap-1", children: [
+              /* @__PURE__ */ jsx(SpeedBtn, { active: speed === 0, onClick: () => onSpeed(0), label: "Пауза", children: speed === 0 ? /* @__PURE__ */ jsx(Play, { size: 15 }) : /* @__PURE__ */ jsx(Pause, { size: 15 }) }),
+              [1, 2, 3].map((s) => /* @__PURE__ */ jsx(SpeedBtn, { active: speed === s, onClick: () => onSpeed(s), label: `Скорость x${s}`, children: /* @__PURE__ */ jsxs("span", { className: "text-[13px] font-black", children: [
+                "x",
+                s
+              ] }) }, s))
+            ] })
+          ] }),
+          /* @__PURE__ */ jsx("div", { className: "hidden w-[220px] text-right text-[12px] font-bold lg:block", children: /* @__PURE__ */ jsx(import_framer_motion4.AnimatePresence, { children: blocked ? /* @__PURE__ */ jsx(import_framer_motion4.motion.span, { initial: { opacity: 0 }, animate: { opacity: 1 }, exit: { opacity: 0 }, className: "text-amber-300", children: "⏸ Время остановлено — разговор" }, "b") : fast ? /* @__PURE__ */ jsxs(import_framer_motion4.motion.span, { initial: { opacity: 0 }, animate: { opacity: 1 }, exit: { opacity: 0 }, className: "flex items-center justify-end gap-1 text-blue-300", children: [
+            /* @__PURE__ */ jsx(FastForward, { size: 14 }),
+            " Дни идут…"
+          ] }, "f") : null }) })
+        ]
+      }
+    );
+  }
+  function SpeedBtn({ active, onClick, label, children }) {
+    return /* @__PURE__ */ jsx(
+      "button",
+      {
+        type: "button",
+        "aria-label": label,
+        title: label,
+        onClick,
+        className: `grid h-8 w-8 place-items-center rounded-xl transition-colors sm:h-9 sm:w-10 ${active ? "bg-blue-500 text-white shadow-[0_0_14px_rgba(59,130,246,.6)]" : "bg-white/5 text-slate-300 hover:bg-white/10"}`,
+        children
+      }
+    );
+  }
+  var TONE = {
+    info: "border-blue-400/40",
+    good: "border-emerald-400/50",
+    warn: "border-amber-400/50",
+    bad: "border-red-400/60"
+  };
+  var TONE_BAR = {
+    info: "bg-blue-400",
+    good: "bg-emerald-400",
+    warn: "bg-amber-400",
+    bad: "bg-red-500"
+  };
+  function Toasts({ toasts }) {
+    return /* @__PURE__ */ jsx(
+      "div",
+      {
+        className: "pointer-events-none fixed bottom-4 left-4 right-4 z-30 flex flex-col gap-2 sm:bottom-6 sm:left-6 sm:right-auto sm:w-[360px]",
+        style: { marginBottom: "env(safe-area-inset-bottom, 0px)" },
+        children: /* @__PURE__ */ jsx(import_framer_motion4.AnimatePresence, { children: toasts.map((t) => /* @__PURE__ */ jsxs(
+          import_framer_motion4.motion.div,
+          {
+            layout: true,
+            initial: { opacity: 0, x: -40, scale: 0.95 },
+            animate: { opacity: 1, x: 0, scale: 1 },
+            exit: { opacity: 0, x: -30 },
+            className: `relative flex items-center gap-3 overflow-hidden rounded-2xl border bg-[#121826]/95 py-3 pl-4 pr-4 shadow-2xl backdrop-blur ${TONE[t.tone]}`,
+            children: [
+              /* @__PURE__ */ jsx("span", { className: `absolute left-0 top-0 h-full w-1 ${TONE_BAR[t.tone]}` }),
+              /* @__PURE__ */ jsx("span", { className: "text-[22px]", children: t.icon }),
+              /* @__PURE__ */ jsx("span", { className: "text-[14px] font-bold leading-snug text-white", children: t.text })
+            ]
+          },
+          t.id
+        )) })
+      }
+    );
+  }
+  function FastForwardOverlay({ show, day }) {
+    return /* @__PURE__ */ jsx(import_framer_motion4.AnimatePresence, { children: show && /* @__PURE__ */ jsxs(
+      import_framer_motion4.motion.div,
+      {
+        className: "pointer-events-none fixed inset-x-0 top-24 z-20 flex flex-col items-center",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        exit: { opacity: 0 },
+        children: [
+          /* @__PURE__ */ jsx("div", { className: "relative h-[72px] w-[260px] overflow-hidden text-center", children: /* @__PURE__ */ jsx(import_framer_motion4.AnimatePresence, { mode: "popLayout", initial: false, children: /* @__PURE__ */ jsxs(
+            import_framer_motion4.motion.div,
+            {
+              initial: { y: 60, opacity: 0, rotateX: -60 },
+              animate: { y: 0, opacity: 1, rotateX: 0 },
+              exit: { y: -60, opacity: 0, rotateX: 60 },
+              transition: { duration: 0.3 },
+              className: "text-[56px] font-black leading-[72px] text-white drop-shadow-[0_4px_20px_rgba(0,0,0,.7)]",
+              children: [
+                "День ",
+                day
+              ]
+            },
+            day
+          ) }) }),
+          /* @__PURE__ */ jsxs("div", { className: "mt-1 flex items-center gap-1.5 rounded-full bg-[#121826]/85 px-3 py-1 text-[12px] font-bold text-blue-200", children: [
+            /* @__PURE__ */ jsx(FastForward, { size: 13 }),
+            " время идёт быстрее"
+          ] })
+        ]
+      }
+    ) });
+  }
+  function Legend() {
+    const [open, setOpen] = (0, import_react8.useState)(true);
+    const items = [
+      ["green", "всё в порядке"],
+      ["yellow", "появилась проблема"],
+      ["orange", "нарастает риск"],
+      ["red", "критическая ситуация"]
+    ];
+    return /* @__PURE__ */ jsx("div", { className: "fixed bottom-6 right-6 z-20 hidden md:block", children: /* @__PURE__ */ jsxs(
+      "button",
+      {
+        type: "button",
+        onClick: () => setOpen((o) => !o),
+        className: "rounded-2xl border border-white/10 bg-[#121826]/85 px-4 py-3 text-left shadow-xl backdrop-blur",
+        children: [
+          /* @__PURE__ */ jsxs("div", { className: "flex items-center gap-2 text-[11px] font-extrabold uppercase tracking-[0.14em] text-slate-400", children: [
+            "Состояние отделов ",
+            /* @__PURE__ */ jsx("span", { className: "text-slate-500", children: open ? "–" : "+" })
+          ] }),
+          open && /* @__PURE__ */ jsx("div", { className: "mt-2 space-y-1", children: items.map(([l, t]) => /* @__PURE__ */ jsxs("div", { className: "flex items-center gap-2 text-[12px] font-semibold text-slate-200", children: [
+            /* @__PURE__ */ jsx("span", { className: "h-2.5 w-2.5 rounded-full", style: { background: LEVEL_COLOR[l], boxShadow: `0 0 8px ${LEVEL_COLOR[l]}` } }),
+            t
+          ] }, l)) })
+        ]
+      }
+    ) });
+  }
+
+  // src/components/IntroScreen.tsx
+  var import_framer_motion5 = __toESM(require_framer_motion(), 1);
+  function IntroScreen({ onStart }) {
+    return /* @__PURE__ */ jsx(
+      import_framer_motion5.motion.div,
+      {
+        className: "fixed inset-0 z-50 overflow-y-auto bg-[#0b0f19]/60 backdrop-blur-[6px]",
+        initial: { opacity: 0 },
+        animate: { opacity: 1 },
+        exit: { opacity: 0, transition: { duration: 0.6 } },
+        children: /* @__PURE__ */ jsx("div", { className: "flex min-h-full items-center justify-center p-4", children: /* @__PURE__ */ jsxs(
+          import_framer_motion5.motion.div,
+          {
+            initial: { y: 30, opacity: 0 },
+            animate: { y: 0, opacity: 1 },
+            exit: { y: -20, opacity: 0 },
+            transition: { delay: 0.15, type: "spring", damping: 22 },
+            className: "w-full max-w-[620px] rounded-[28px] border border-white/10 bg-[#121826]/95 p-6 shadow-[0_40px_120px_rgba(0,0,0,.7)] sm:p-10",
+            children: [
+              /* @__PURE__ */ jsx("div", { className: "inline-flex items-center gap-2 rounded-full bg-blue-500/15 px-3 py-1 text-[12px] font-extrabold uppercase tracking-[0.16em] text-blue-300", children: "HR-симулятор · демо" }),
+              /* @__PURE__ */ jsxs("h1", { className: "mt-4 text-[28px] font-black leading-[1.1] text-white [text-wrap:balance] sm:text-[38px]", children: [
+                "Ты — новый HR-директор ",
+                /* @__PURE__ */ jsx("span", { className: "text-blue-400", children: "GrowTech" })
+              ] }),
+              /* @__PURE__ */ jsxs("div", { className: "mt-5 space-y-3 text-[15px] leading-relaxed text-slate-300 sm:text-[16px]", children: [
+                /* @__PURE__ */ jsx("p", { children: "В компании 240 сотрудников. Бизнес быстро растёт." }),
+                /* @__PURE__ */ jsx("p", { children: "Твоя задача — помогать компании развиваться, удерживать ключевых людей и правильно расставлять приоритеты." }),
+                /* @__PURE__ */ jsx("p", { className: "font-bold text-white", children: "Но времени и HR-ресурсов всегда меньше, чем задач." })
+              ] }),
+              /* @__PURE__ */ jsx("div", { className: "mt-6 grid grid-cols-1 gap-2 sm:mt-7 sm:grid-cols-3 sm:gap-3", children: [
+                { I: Users, t: "Офис живёт своей жизнью" },
+                { I: Eye, t: "Следи за отделами — подсказок не будет" },
+                { I: Clock, t: "Последствия приходят не сразу" }
+              ].map(({ I, t }) => /* @__PURE__ */ jsxs("div", { className: "flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] p-3 sm:block", children: [
+                /* @__PURE__ */ jsx(I, { size: 18, className: "shrink-0 text-blue-300" }),
+                /* @__PURE__ */ jsx("div", { className: "text-[12px] font-bold leading-snug text-slate-300 sm:mt-2", children: t })
+              ] }, t)) }),
+              /* @__PURE__ */ jsxs("p", { className: "mt-4 flex items-start gap-2 rounded-xl bg-amber-300/10 px-3 py-2 text-[13px] font-semibold leading-snug text-amber-100 md:hidden", children: [
+                /* @__PURE__ */ jsx(Monitor, { size: 16, className: "mt-[1px] shrink-0" }),
+                "Игра рассчитана на экран компьютера. На телефоне удобнее держать его горизонтально."
+              ] }),
+              /* @__PURE__ */ jsxs(
+                import_framer_motion5.motion.button,
+                {
+                  type: "button",
+                  onClick: onStart,
+                  whileHover: { scale: 1.02 },
+                  whileTap: { scale: 0.98 },
+                  className: "mt-6 flex w-full items-center justify-center gap-2 rounded-2xl bg-blue-500 py-4 text-[17px] font-black text-white shadow-[0_12px_40px_rgba(59,130,246,.5)] hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-blue-200 sm:mt-8",
+                  children: [
+                    "Начать первый месяц ",
+                    /* @__PURE__ */ jsx(ArrowRight, { size: 20 })
+                  ]
+                }
+              )
+            ]
+          }
+        ) })
+      }
+    );
+  }
+
+  // src/components/Office.tsx
+  var import_framer_motion6 = __toESM(require_framer_motion(), 1);
+  var import_react11 = __toESM(require_react(), 1);
+
+  // src/components/Furniture.tsx
+  var import_react9 = __toESM(require_react(), 1);
+  function Piece({ x, y, w, h, z, children }) {
+    return /* @__PURE__ */ jsx("div", { className: "pointer-events-none absolute", style: { left: x, top: y, width: w, height: h, zIndex: z ?? Math.round(y + h) }, children: /* @__PURE__ */ jsx("svg", { width: w, height: h, viewBox: `0 0 ${w} ${h}`, overflow: "visible", children }) });
+  }
+  var Desk = (0, import_react9.memo)(function Desk2({ slot, state, stress, player }) {
+    const { x, y, seat } = slot;
+    const on = state === "occupied";
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      /* @__PURE__ */ jsxs(Piece, { x: seat.x - 12, y: seat.y - 27, w: 24, h: 30, z: seat.y - 1, children: [
+        /* @__PURE__ */ jsx("rect", { x: "2", y: "0", width: "20", height: "17", rx: "6", fill: player ? "#1e3a8a" : "#30343d" }),
+        /* @__PURE__ */ jsx("rect", { x: "3.5", y: "14", width: "17", height: "11", rx: "4", fill: player ? "#1d4ed8" : "#3f444f" })
+      ] }),
+      /* @__PURE__ */ jsxs(Piece, { x, y, w: 80, h: 44, children: [
+        /* @__PURE__ */ jsx("rect", { x: "1", y: "6", width: "78", height: "38", rx: "4", fill: "#9a7148" }),
+        /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: "80", height: "33", rx: "4", fill: player ? "#e6c79a" : "#ecdcbf", stroke: "#c9ab80" }),
+        /* @__PURE__ */ jsx("rect", { x: "4", y: "33", width: "4", height: "10", fill: "#4b3a2a" }),
+        /* @__PURE__ */ jsx("rect", { x: "72", y: "33", width: "4", height: "10", fill: "#4b3a2a" }),
+        /* @__PURE__ */ jsx("rect", { x: "23", y: "5", width: "22", height: "6", rx: "1.5", fill: "#f8fafc", stroke: "#cbd5e1", strokeWidth: "0.7" }),
+        /* @__PURE__ */ jsx("ellipse", { cx: "50", cy: "8", rx: "2", ry: "2.6", fill: "#f1f5f9", stroke: "#cbd5e1", strokeWidth: "0.6" }),
+        /* @__PURE__ */ jsx("rect", { x: "55", y: "-11", width: "22", height: "16", rx: "2", fill: "#1d2129" }),
+        /* @__PURE__ */ jsx("rect", { x: "63", y: "4", width: "6", height: "6", fill: "#2a2f38" }),
+        on && /* @__PURE__ */ jsx("rect", { x: "56.5", y: "-12.5", width: "19", height: "2", rx: "1", fill: "#7dd3fc", opacity: "0.8" }),
+        on && /* @__PURE__ */ jsx("circle", { cx: "74", cy: "2.5", r: "0.9", fill: "#4ade80" }),
+        /* @__PURE__ */ jsx("circle", { cx: "12", cy: "13", r: "3.4", fill: on ? "#f97316" : "#94a3b8", stroke: "#fff", strokeWidth: "0.8" }),
+        stress >= 1 && /* @__PURE__ */ jsx("rect", { x: "5", y: "18", width: "13", height: "10", rx: "1", fill: "#fff", stroke: "#cbd5e1", strokeWidth: "0.6", transform: "rotate(-6 11 23)" }),
+        stress >= 2 && /* @__PURE__ */ jsx("rect", { x: "24", y: "16", width: "14", height: "11", rx: "1", fill: "#fefce8", stroke: "#d6d3d1", strokeWidth: "0.6", transform: "rotate(5 31 21)" }),
+        stress >= 3 && /* @__PURE__ */ jsx("rect", { x: "40", y: "18", width: "13", height: "10", rx: "1", fill: "#fff", stroke: "#cbd5e1", strokeWidth: "0.6", transform: "rotate(-10 46 23)" }),
+        state === "left" && /* @__PURE__ */ jsxs("g", { children: [
+          /* @__PURE__ */ jsx("rect", { x: "20", y: "-8", width: "26", height: "18", rx: "1.5", fill: "#c99a5a", stroke: "#9c733d" }),
+          /* @__PURE__ */ jsx("path", { d: "M20 -3 H46", stroke: "#9c733d", strokeWidth: "0.8" }),
+          /* @__PURE__ */ jsx("rect", { x: "60", y: "14", width: "10", height: "9", fill: "#fde047", transform: "rotate(8 65 18)" })
+        ] }),
+        player && /* @__PURE__ */ jsxs("g", { children: [
+          /* @__PURE__ */ jsx("rect", { x: "28", y: "24", width: "24", height: "7", rx: "2", fill: "#1e3a8a" }),
+          /* @__PURE__ */ jsx("text", { x: "40", y: "29.5", fontSize: "5", fill: "#fff", textAnchor: "middle", fontWeight: "800", children: "HR DIRECTOR" })
+        ] })
+      ] })
+    ] });
+  });
+  function CeoDesk() {
+    const { x, y, w } = CEO_DESK;
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      /* @__PURE__ */ jsxs(Piece, { x: 1046, y: 586, w: 28, h: 36, z: 619, children: [
+        /* @__PURE__ */ jsx("rect", { x: "1", y: "0", width: "26", height: "22", rx: "8", fill: "#111827" }),
+        /* @__PURE__ */ jsx("rect", { x: "3", y: "18", width: "22", height: "13", rx: "5", fill: "#1f2937" })
+      ] }),
+      /* @__PURE__ */ jsxs(Piece, { x, y, w, h: 52, children: [
+        /* @__PURE__ */ jsx("rect", { x: "1", y: "8", width: w - 2, height: "44", rx: "5", fill: "#3b2416" }),
+        /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: w, height: "38", rx: "5", fill: "#6b4226", stroke: "#4a2c18" }),
+        /* @__PURE__ */ jsx("rect", { x: "70", y: "-14", width: "26", height: "18", rx: "2", fill: "#0f1218" }),
+        /* @__PURE__ */ jsx("rect", { x: "26", y: "5", width: "24", height: "6", rx: "1.5", fill: "#e2e8f0" }),
+        /* @__PURE__ */ jsx("rect", { x: "8", y: "16", width: "16", height: "12", rx: "1", fill: "#fff", transform: "rotate(-8 16 22)" }),
+        /* @__PURE__ */ jsx("rect", { x: "44", y: "27", width: "32", height: "8", rx: "2", fill: "#d4a017" }),
+        /* @__PURE__ */ jsx("text", { x: "60", y: "33.2", fontSize: "6", fill: "#3b2416", textAnchor: "middle", fontWeight: "900", children: "CEO" })
+      ] })
+    ] });
+  }
+  function Plant({ x, y, s = 1 }) {
+    return /* @__PURE__ */ jsx(Piece, { x, y, w: 34 * s, h: 44 * s, children: /* @__PURE__ */ jsxs("g", { transform: `scale(${s})`, children: [
+      /* @__PURE__ */ jsx("ellipse", { cx: "17", cy: "42", rx: "11", ry: "2.5", fill: "rgba(0,0,0,.2)" }),
+      /* @__PURE__ */ jsx("path", { d: "M9 30 H25 L23 42 H11Z", fill: "#e7e2da", stroke: "#c8c0b2" }),
+      /* @__PURE__ */ jsxs("g", { fill: "#2f8f4e", children: [
+        /* @__PURE__ */ jsx("ellipse", { cx: "17", cy: "14", rx: "7", ry: "12" }),
+        /* @__PURE__ */ jsx("ellipse", { cx: "9", cy: "20", rx: "6", ry: "10", transform: "rotate(-30 9 20)" }),
+        /* @__PURE__ */ jsx("ellipse", { cx: "25", cy: "20", rx: "6", ry: "10", transform: "rotate(30 25 20)" })
+      ] }),
+      /* @__PURE__ */ jsxs("g", { fill: "#3fae63", children: [
+        /* @__PURE__ */ jsx("ellipse", { cx: "13", cy: "16", rx: "4", ry: "8", transform: "rotate(-15 13 16)" }),
+        /* @__PURE__ */ jsx("ellipse", { cx: "21", cy: "17", rx: "4", ry: "8", transform: "rotate(18 21 17)" })
+      ] })
+    ] }) });
+  }
+  function Sofa({ x, y, w = 120, color = "#4b5b73" }) {
+    return /* @__PURE__ */ jsxs(Piece, { x, y, w, h: 34, children: [
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: w, height: "16", rx: "6", fill: color }),
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "10", width: w, height: "22", rx: "6", fill: color, opacity: "0.85" }),
+      /* @__PURE__ */ jsx("rect", { x: "6", y: "12", width: w / 2 - 8, height: "14", rx: "4", fill: "#fff", opacity: "0.12" }),
+      /* @__PURE__ */ jsx("rect", { x: w / 2 + 2, y: "12", width: w / 2 - 8, height: "14", rx: "4", fill: "#fff", opacity: "0.12" }),
+      /* @__PURE__ */ jsx("rect", { x: "-2", y: "6", width: "9", height: "26", rx: "4", fill: color }),
+      /* @__PURE__ */ jsx("rect", { x: w - 7, y: "6", width: "9", height: "26", rx: "4", fill: color })
+    ] });
+  }
+  function CoffeeBar({ x, y }) {
+    return /* @__PURE__ */ jsxs(Piece, { x, y, w: 130, h: 34, children: [
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "4", width: "130", height: "30", rx: "4", fill: "#7a5a3c" }),
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: "130", height: "24", rx: "4", fill: "#e9e4dc", stroke: "#cfc6b8" }),
+      /* @__PURE__ */ jsx("rect", { x: "10", y: "-14", width: "22", height: "26", rx: "3", fill: "#262a33" }),
+      /* @__PURE__ */ jsx("rect", { x: "14", y: "-10", width: "14", height: "6", rx: "1", fill: "#f59e0b" }),
+      /* @__PURE__ */ jsx("circle", { cx: "21", cy: "6", r: "3", fill: "#fff" }),
+      /* @__PURE__ */ jsx("rect", { x: "44", y: "-6", width: "16", height: "18", rx: "3", fill: "#94a3b8" }),
+      /* @__PURE__ */ jsx("circle", { cx: "80", cy: "10", r: "4", fill: "#fff", stroke: "#cbd5e1" }),
+      /* @__PURE__ */ jsx("circle", { cx: "94", cy: "12", r: "4", fill: "#fde68a", stroke: "#cbd5e1" }),
+      /* @__PURE__ */ jsx("ellipse", { cx: "114", cy: "10", rx: "9", ry: "6", fill: "#f59e0b" }),
+      /* @__PURE__ */ jsx("circle", { cx: "111", cy: "8", r: "2.5", fill: "#ef4444" }),
+      /* @__PURE__ */ jsx("circle", { cx: "117", cy: "9", r: "2.5", fill: "#84cc16" })
+    ] });
+  }
+  function MeetingTable({ cx, cy }) {
+    const chairs = [[-22, -24], [22, -24], [-22, 30], [22, 30]];
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      chairs.map(([dx, dy], i) => /* @__PURE__ */ jsx(Piece, { x: cx + dx - 9, y: cy + dy - 9, w: 18, h: 18, children: /* @__PURE__ */ jsx("rect", { x: "1", y: "1", width: "16", height: "16", rx: "5", fill: "#334155" }) }, i)),
+      /* @__PURE__ */ jsxs(Piece, { x: cx - 40, y: cy - 22, w: 80, h: 48, children: [
+        /* @__PURE__ */ jsx("ellipse", { cx: "40", cy: "28", rx: "40", ry: "20", fill: "#5b3b23" }),
+        /* @__PURE__ */ jsx("ellipse", { cx: "40", cy: "23", rx: "40", ry: "20", fill: "#d9c09a", stroke: "#b9996c" }),
+        /* @__PURE__ */ jsx("rect", { x: "26", y: "16", width: "12", height: "8", rx: "1", fill: "#fff" }),
+        /* @__PURE__ */ jsx("rect", { x: "44", y: "20", width: "14", height: "9", rx: "1.5", fill: "#1f2937" })
+      ] })
+    ] });
+  }
+  function Shelf({ x, y, w = 80 }) {
+    const books = ["#b91c1c", "#1d4ed8", "#15803d", "#a16207", "#7c3aed", "#0f766e", "#be185d", "#334155"];
+    return /* @__PURE__ */ jsxs(Piece, { x, y, w, h: 26, children: [
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: w, height: "26", rx: "2", fill: "#5b3b23" }),
+      /* @__PURE__ */ jsx("rect", { x: "2", y: "2", width: w - 4, height: "18", fill: "#3a2516" }),
+      Array.from({ length: Math.floor((w - 6) / 7) }, (_, i) => /* @__PURE__ */ jsx("rect", { x: 4 + i * 7, y: 4 + i % 3, width: "5.5", height: 14 - i % 3, fill: books[i % books.length] }, i))
+    ] });
+  }
+  function Cabinet({ x, y }) {
+    return /* @__PURE__ */ jsxs(Piece, { x, y, w: 34, h: 30, children: [
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: "34", height: "30", rx: "2", fill: "#9aa3ad" }),
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: "34", height: "10", rx: "2", fill: "#c3cad2" }),
+      /* @__PURE__ */ jsx("rect", { x: "3", y: "13", width: "28", height: "6", rx: "1", fill: "#8b949e" }),
+      /* @__PURE__ */ jsx("rect", { x: "3", y: "21", width: "28", height: "6", rx: "1", fill: "#8b949e" }),
+      /* @__PURE__ */ jsx("rect", { x: "14", y: "15", width: "6", height: "1.5", fill: "#e5e7eb" }),
+      /* @__PURE__ */ jsx("rect", { x: "14", y: "23", width: "6", height: "1.5", fill: "#e5e7eb" })
+    ] });
+  }
+  function WallBoard({ x, y, kind }) {
+    return /* @__PURE__ */ jsxs(Piece, { x, y, w: 110, h: 34, children: [
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: "110", height: "30", rx: "3", fill: kind === "sales" ? "#111827" : "#f8fafc", stroke: "#64748b", strokeWidth: "1.5" }),
+      kind === "sales" && [10, 16, 13, 20, 24].map((h, i) => /* @__PURE__ */ jsx("rect", { x: 14 + i * 18, y: 26 - h, width: "10", height: h, rx: "1", fill: i === 4 ? "#22c55e" : "#38bdf8" }, i)),
+      kind === "kanban" && [0, 1, 2].map(
+        (c) => [0, 1, 2].map(
+          (r) => (c + r) % 3 !== 2 ? /* @__PURE__ */ jsx("rect", { x: 8 + c * 34, y: 5 + r * 8, width: "26", height: "6", rx: "1", fill: ["#fde047", "#f9a8d4", "#86efac"][c] }, `${c}${r}`) : null
+        )
+      ),
+      kind === "mood" && ["#f472b6", "#fb923c", "#a78bfa", "#38bdf8", "#facc15"].map((c, i) => /* @__PURE__ */ jsx("rect", { x: 8 + i * 20, y: 5 + i % 2 * 6, width: "16", height: "14", rx: "2", fill: c }, i)),
+      kind === "people" && [0, 1, 2, 3].map((i) => /* @__PURE__ */ jsxs("g", { children: [
+        /* @__PURE__ */ jsx("circle", { cx: 20 + i * 24, cy: "11", r: "5", fill: "#93c5fd" }),
+        /* @__PURE__ */ jsx("rect", { x: 13 + i * 24, y: "17", width: "14", height: "8", rx: "4", fill: "#3b82f6" })
+      ] }, i))
+    ] });
+  }
+  function BeanBag({ x, y, color }) {
+    return /* @__PURE__ */ jsxs(Piece, { x, y, w: 40, h: 26, z: y + 4, children: [
+      /* @__PURE__ */ jsx("ellipse", { cx: "20", cy: "15", rx: "20", ry: "11", fill: color }),
+      /* @__PURE__ */ jsx("ellipse", { cx: "17", cy: "11", rx: "10", ry: "5", fill: "#fff", opacity: "0.18" })
+    ] });
+  }
+  function RoundTable({ x, y }) {
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      /* @__PURE__ */ jsx(Piece, { x: x - 2, y: y + 6, w: 16, h: 16, children: /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: "16", height: "16", rx: "5", fill: "#3f444f" }) }),
+      /* @__PURE__ */ jsx(Piece, { x: x + 54, y: y + 6, w: 16, h: 16, children: /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: "16", height: "16", rx: "5", fill: "#3f444f" }) }),
+      /* @__PURE__ */ jsxs(Piece, { x: x + 14, y, w: 40, h: 36, children: [
+        /* @__PURE__ */ jsx("ellipse", { cx: "20", cy: "22", rx: "20", ry: "13", fill: "#8b6a46" }),
+        /* @__PURE__ */ jsx("ellipse", { cx: "20", cy: "18", rx: "20", ry: "13", fill: "#e6d2b0", stroke: "#c4a67a" }),
+        /* @__PURE__ */ jsx("circle", { cx: "14", cy: "17", r: "3", fill: "#fff", stroke: "#cbd5e1" }),
+        /* @__PURE__ */ jsx("rect", { x: "21", y: "13", width: "9", height: "7", rx: "1", fill: "#fff" })
+      ] })
+    ] });
+  }
+  function Rug({ x, y, w, h, color }) {
+    return /* @__PURE__ */ jsxs(Piece, { x, y, w, h, z: 2, children: [
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "0", width: w, height: h, rx: "10", fill: color, opacity: "0.85" }),
+      /* @__PURE__ */ jsx("rect", { x: "6", y: "6", width: w - 12, height: h - 12, rx: "7", fill: "none", stroke: "#fff", strokeOpacity: "0.25", strokeWidth: "2" })
+    ] });
+  }
+
+  // src/components/OfficeFloor.tsx
+  var import_react10 = __toESM(require_react(), 1);
+  var FLOOR = {
+    product: "url(#wood)",
+    finance: "url(#wood)",
+    sales: "url(#wood)",
+    marketing: "url(#wood)",
+    hr: "url(#woodLight)",
+    ceo: "url(#woodDark)"
+  };
+  function wallPath(id) {
+    const r = ROOMS[id];
+    const dx = r.door.x;
+    const g = 32;
+    return r.top ? `M ${dx + g} ${r.y + r.h} H ${r.x + r.w} V ${r.y} H ${r.x} V ${r.y + r.h} H ${dx - g}` : `M ${dx - g} ${r.y} H ${r.x} V ${r.y + r.h} H ${r.x + r.w} V ${r.y} H ${dx + g}`;
+  }
+  var OfficeFloor = (0, import_react10.memo)(function OfficeFloor2() {
+    const rooms = Object.values(ROOMS);
+    return /* @__PURE__ */ jsxs("svg", { className: "pointer-events-none absolute left-0 top-0", width: STAGE_W, height: STAGE_H, style: { zIndex: 0 }, children: [
+      /* @__PURE__ */ jsxs("defs", { children: [
+        /* @__PURE__ */ jsxs("pattern", { id: "wood", width: "96", height: "28", patternUnits: "userSpaceOnUse", children: [
+          /* @__PURE__ */ jsx("rect", { width: "96", height: "28", fill: "#cda574" }),
+          /* @__PURE__ */ jsx("rect", { y: "14", width: "96", height: "14", fill: "#c99f6c" }),
+          /* @__PURE__ */ jsx("path", { d: "M0 13.5H96M0 27.5H96", stroke: "#b88f5e", strokeWidth: "1" }),
+          /* @__PURE__ */ jsx("path", { d: "M30 0V14M78 14V28", stroke: "#b88f5e", strokeWidth: "1" })
+        ] }),
+        /* @__PURE__ */ jsxs("pattern", { id: "woodLight", width: "96", height: "28", patternUnits: "userSpaceOnUse", children: [
+          /* @__PURE__ */ jsx("rect", { width: "96", height: "28", fill: "#d8b888" }),
+          /* @__PURE__ */ jsx("rect", { y: "14", width: "96", height: "14", fill: "#d3b281" }),
+          /* @__PURE__ */ jsx("path", { d: "M0 13.5H96M0 27.5H96", stroke: "#c4a171", strokeWidth: "1" }),
+          /* @__PURE__ */ jsx("path", { d: "M30 0V14M78 14V28", stroke: "#c4a171", strokeWidth: "1" })
+        ] }),
+        /* @__PURE__ */ jsxs("pattern", { id: "woodDark", width: "96", height: "28", patternUnits: "userSpaceOnUse", children: [
+          /* @__PURE__ */ jsx("rect", { width: "96", height: "28", fill: "#a87a4f" }),
+          /* @__PURE__ */ jsx("rect", { y: "14", width: "96", height: "14", fill: "#a2744a" }),
+          /* @__PURE__ */ jsx("path", { d: "M0 13.5H96M0 27.5H96", stroke: "#8f6540", strokeWidth: "1" }),
+          /* @__PURE__ */ jsx("path", { d: "M30 0V14M78 14V28", stroke: "#8f6540", strokeWidth: "1" })
+        ] }),
+        /* @__PURE__ */ jsxs("pattern", { id: "tile", width: "48", height: "48", patternUnits: "userSpaceOnUse", children: [
+          /* @__PURE__ */ jsx("rect", { width: "48", height: "48", fill: "#d9d5ce" }),
+          /* @__PURE__ */ jsx("path", { d: "M48 0H0V48", fill: "none", stroke: "#c9c4bb", strokeWidth: "1.2" })
+        ] })
+      ] }),
+      /* @__PURE__ */ jsx("rect", { x: "6", y: "6", width: STAGE_W - 12, height: STAGE_H - 12, rx: "16", fill: "url(#tile)", stroke: "#1d2230", strokeWidth: "10" }),
+      rooms.map((r) => /* @__PURE__ */ jsx("g", { children: Array.from({ length: 5 }, (_, i) => /* @__PURE__ */ jsx(
+        "rect",
+        {
+          x: r.x + 14 + i * ((r.w - 28) / 5),
+          y: r.top ? 2 : STAGE_H - 9,
+          width: (r.w - 28) / 5 - 8,
+          height: 7,
+          rx: "2",
+          fill: "#9fd3f0",
+          opacity: "0.9"
+        },
+        i
+      )) }, `w-${r.id}`)),
+      /* @__PURE__ */ jsx("rect", { x: "0", y: "372", width: "14", height: "56", fill: "#d9d5ce" }),
+      /* @__PURE__ */ jsx("path", { d: "M3 372 V428", stroke: "#9fd3f0", strokeWidth: "3" }),
+      /* @__PURE__ */ jsx("rect", { x: "14", y: "380", width: "40", height: "40", rx: "4", fill: "#4b5563", opacity: "0.55" }),
+      /* @__PURE__ */ jsx("text", { x: "34", y: "404", fontSize: "8", fill: "#f8fafc", textAnchor: "middle", fontWeight: "800", children: "ВХОД" }),
+      rooms.map((r) => /* @__PURE__ */ jsx("rect", { x: r.x, y: r.y, width: r.w, height: r.h, rx: "6", fill: FLOOR[r.id] }, r.id)),
+      rooms.map((r) => /* @__PURE__ */ jsx(
+        "rect",
+        {
+          x: r.x,
+          y: r.top ? r.y : r.y + r.h - 60,
+          width: r.w,
+          height: 60,
+          fill: `url(#${r.top ? "lightDown" : "lightUp"})`
+        },
+        `l-${r.id}`
+      )),
+      /* @__PURE__ */ jsxs("defs", { children: [
+        /* @__PURE__ */ jsxs("linearGradient", { id: "lightDown", x1: "0", y1: "0", x2: "0", y2: "1", children: [
+          /* @__PURE__ */ jsx("stop", { offset: "0", stopColor: "#fff", stopOpacity: "0.22" }),
+          /* @__PURE__ */ jsx("stop", { offset: "1", stopColor: "#fff", stopOpacity: "0" })
+        ] }),
+        /* @__PURE__ */ jsxs("linearGradient", { id: "lightUp", x1: "0", y1: "1", x2: "0", y2: "0", children: [
+          /* @__PURE__ */ jsx("stop", { offset: "0", stopColor: "#fff", stopOpacity: "0.22" }),
+          /* @__PURE__ */ jsx("stop", { offset: "1", stopColor: "#fff", stopOpacity: "0" })
+        ] })
+      ] }),
+      rooms.map((r) => /* @__PURE__ */ jsxs("g", { fill: "none", strokeLinecap: "round", children: [
+        /* @__PURE__ */ jsx("path", { d: wallPath(r.id), stroke: "#e6f4fc", strokeWidth: "6", opacity: "0.9" }),
+        /* @__PURE__ */ jsx("path", { d: wallPath(r.id), stroke: "#4b5a6b", strokeWidth: "1.4" })
+      ] }, `g-${r.id}`)),
+      rooms.map(
+        (r) => [-32, 32].map((d) => /* @__PURE__ */ jsx("rect", { x: r.door.x + d - 3, y: (r.top ? r.y + r.h : r.y) - 3, width: "6", height: "6", rx: "1", fill: "#2b3442" }, `${r.id}${d}`))
+      )
+    ] });
+  });
+
+  // src/components/Office.tsx
+  var RGB = {
+    green: "34,197,94",
+    yellow: "250,204,21",
+    orange: "251,146,60",
+    red: "239,68,68"
+  };
+  function ZoneGlow({ id, level }) {
+    const r = ROOMS[id];
+    const rank = LEVEL_RANK[level];
+    const c = RGB[level];
+    const a = [0, 0.55, 0.75, 0.9][rank];
+    return /* @__PURE__ */ jsxs("div", { className: "pointer-events-none absolute", style: { left: r.x, top: r.y, width: r.w, height: r.h, zIndex: 3 }, children: [
+      /* @__PURE__ */ jsx(
+        import_framer_motion6.motion.div,
+        {
+          className: "absolute inset-0 rounded-md",
+          initial: false,
+          animate: { boxShadow: `inset 0 0 ${30 + rank * 18}px ${rank * 4}px rgba(${c},${a * 0.6}), 0 0 0 ${rank ? 3 : 0}px rgba(${c},${a})` },
+          transition: { duration: 2.2, ease: "easeInOut" }
+        }
+      ),
+      rank === 3 && /* @__PURE__ */ jsx(
+        import_framer_motion6.motion.div,
+        {
+          className: "absolute inset-0 rounded-md",
+          style: { boxShadow: `0 0 28px 6px rgba(${c},.65), inset 0 0 60px rgba(${c},.35)` },
+          animate: { opacity: [0.15, 0.9, 0.15] },
+          transition: { repeat: Infinity, duration: 1.8 }
+        }
+      )
+    ] });
+  }
+  function RoomLabel({ id, level }) {
+    const r = ROOMS[id];
+    const isHr = id === "hr";
+    return /* @__PURE__ */ jsx("div", { className: "pointer-events-none absolute", style: { left: r.x + 12, top: r.y + 10, zIndex: 3e3 }, children: /* @__PURE__ */ jsxs(
+      "div",
+      {
+        className: `flex items-center gap-2 rounded-lg px-2.5 py-1 text-[13px] font-extrabold text-white shadow-lg ${isHr ? "bg-blue-600/95 ring-1 ring-blue-300/60" : "bg-[#151a24]/90"}`,
+        children: [
+          /* @__PURE__ */ jsx(
+            import_framer_motion6.motion.span,
+            {
+              className: "h-3 w-3 rounded-full",
+              initial: false,
+              animate: { backgroundColor: LEVEL_COLOR[level], boxShadow: `0 0 10px ${LEVEL_COLOR[level]}` },
+              transition: { duration: 1.5 }
+            }
+          ),
+          r.name,
+          /* @__PURE__ */ jsx("span", { className: "text-[10px] font-semibold text-white/60", children: r.headcount })
+        ]
+      }
+    ) });
+  }
+  var Decor = (0, import_react11.memo)(function Decor2() {
+    return /* @__PURE__ */ jsxs(Fragment, { children: [
+      /* @__PURE__ */ jsx(WallBoard, { x: 290, y: 30, kind: "kanban" }),
+      /* @__PURE__ */ jsx(Plant, { x: 30, y: 262 }),
+      /* @__PURE__ */ jsx(Plant, { x: 378, y: 262 }),
+      /* @__PURE__ */ jsx(Cabinet, { x: 758, y: 34 }),
+      /* @__PURE__ */ jsx(Cabinet, { x: 796, y: 34 }),
+      /* @__PURE__ */ jsx(Plant, { x: 446, y: 262 }),
+      /* @__PURE__ */ jsx(Plant, { x: 800, y: 262 }),
+      /* @__PURE__ */ jsx(WallBoard, { x: 1132, y: 30, kind: "sales" }),
+      /* @__PURE__ */ jsx(Plant, { x: 870, y: 262 }),
+      /* @__PURE__ */ jsx(Plant, { x: 1216, y: 262 }),
+      /* @__PURE__ */ jsx(WallBoard, { x: 250, y: 736, kind: "mood" }),
+      /* @__PURE__ */ jsx(Plant, { x: 30, y: 726 }),
+      /* @__PURE__ */ jsx(Plant, { x: 376, y: 726, s: 0.9 }),
+      /* @__PURE__ */ jsx(RoundTable, { x: 484, y: 590 }),
+      /* @__PURE__ */ jsx(Shelf, { x: 462, y: 744, w: 110 }),
+      /* @__PURE__ */ jsx(WallBoard, { x: 690, y: 738, kind: "people" }),
+      /* @__PURE__ */ jsx(Plant, { x: 800, y: 540, s: 0.9 }),
+      /* @__PURE__ */ jsx(Rug, { x: 968, y: 580, w: 190, h: 110, color: "#7f1d1d" }),
+      /* @__PURE__ */ jsx(CeoDesk, {}),
+      /* @__PURE__ */ jsx(Sofa, { x: 890, y: 530, w: 92, color: "#3f2d24" }),
+      /* @__PURE__ */ jsx(Shelf, { x: 1170, y: 500, w: 78 }),
+      /* @__PURE__ */ jsx(Plant, { x: 872, y: 726 }),
+      /* @__PURE__ */ jsx(Plant, { x: 1218, y: 726 }),
+      /* @__PURE__ */ jsx(Plant, { x: 1170, y: 650, s: 0.8 }),
+      /* @__PURE__ */ jsx(CoffeeBar, { x: 30, y: 326 }),
+      /* @__PURE__ */ jsx(Rug, { x: 316, y: 318, w: 150, h: 64, color: "#64748b" }),
+      /* @__PURE__ */ jsx(Sofa, { x: 332, y: 326, w: 116 }),
+      /* @__PURE__ */ jsx(Plant, { x: 174, y: 322, s: 0.85 }),
+      /* @__PURE__ */ jsx(Plant, { x: 566, y: 428, s: 0.85 }),
+      /* @__PURE__ */ jsx(Plant, { x: 490, y: 326, s: 0.8 }),
+      /* @__PURE__ */ jsx(BeanBag, { x: 886, y: 436, color: "#f97316" }),
+      /* @__PURE__ */ jsx(BeanBag, { x: 946, y: 436, color: "#8b5cf6" }),
+      /* @__PURE__ */ jsx(MeetingTable, { cx: 1189, cy: 402 }),
+      /* @__PURE__ */ jsx(Plant, { x: 1238, y: 318, s: 0.8 }),
+      /* @__PURE__ */ jsx(Plant, { x: 1004, y: 430, s: 0.8 })
+    ] });
+  });
+  var Office = (0, import_react11.memo)(function Office2({ people, desks, levels, hrTasks, fx, camera, evening, onArrive }) {
+    const ref = (0, import_react11.useRef)(null);
+    const [size, setSize] = (0, import_react11.useState)({ w: 1440, h: 836 });
+    (0, import_react11.useLayoutEffect)(() => {
+      const el = ref.current;
+      const ro = new ResizeObserver(([e]) => setSize({ w: e.contentRect.width, h: e.contentRect.height }));
+      ro.observe(el);
+      return () => ro.disconnect();
+    }, []);
+    const base = Math.min((size.w - 40) / STAGE_W, (size.h - 30) / STAGE_H);
+    const narrow = size.w < 768;
+    let S = base * camera.scale;
+    let cx = size.w / 2;
+    let cy = size.h / 2;
+    if (camera.mode === "dialog") cy = size.w < 640 ? size.h * 0.17 : (size.h - Math.min(400, size.h * 0.5)) / 2 + 10;
+    if (camera.mode === "side") {
+      if (narrow) {
+        const avail = 0.4 * (size.h + 56) - 56;
+        S = Math.min((size.w - 32) / STAGE_W, (avail - 12) / STAGE_H);
+        cy = avail / 2;
+      } else {
+        cx = (size.w - Math.min(640, size.w * 0.46)) / 2;
+      }
+    }
+    let tx = cx - S * camera.x;
+    let ty = cy - S * camera.y;
+    if ((camera.mode ?? "center") === "center") {
+      const sw = STAGE_W * S;
+      const sh = STAGE_H * S;
+      if (sw > size.w) tx = Math.min(10, Math.max(size.w - sw - 10, tx));
+      if (sh > size.h) ty = Math.min(10, Math.max(size.h - sh - 10, ty));
+    }
+    return /* @__PURE__ */ jsx("div", { ref, className: "absolute inset-0 overflow-hidden", children: /* @__PURE__ */ jsxs(
+      import_framer_motion6.motion.div,
+      {
+        className: "absolute left-0 top-0",
+        style: { width: STAGE_W, height: STAGE_H, transformOrigin: "0 0" },
+        initial: false,
+        animate: { x: tx, y: ty, scale: S },
+        transition: { duration: 1.2, ease: [0.4, 0, 0.2, 1] },
+        children: [
+          /* @__PURE__ */ jsx(OfficeFloor, {}),
+          /* @__PURE__ */ jsx(
+            import_framer_motion6.motion.div,
+            {
+              className: "pointer-events-none absolute rounded-lg",
+              style: { left: ROOMS.hr.x - 4, top: ROOMS.hr.y - 4, width: ROOMS.hr.w + 8, height: ROOMS.hr.h + 8, zIndex: 2 },
+              animate: { boxShadow: ["0 0 0 3px rgba(59,130,246,.9), 0 0 26px 4px rgba(59,130,246,.45)", "0 0 0 3px rgba(96,165,250,1), 0 0 40px 8px rgba(59,130,246,.6)", "0 0 0 3px rgba(59,130,246,.9), 0 0 26px 4px rgba(59,130,246,.45)"] },
+              transition: { repeat: Infinity, duration: 3.5 }
+            }
+          ),
+          /* @__PURE__ */ jsx("div", { className: "pointer-events-none absolute", style: { left: ROOMS.hr.x, top: ROOMS.hr.y, width: ROOMS.hr.w, height: ROOMS.hr.h, zIndex: 1, background: "rgba(59,130,246,.08)" } }),
+          Object.keys(ROOMS).map((id) => /* @__PURE__ */ jsx(ZoneGlow, { id, level: levels[id] }, id)),
+          /* @__PURE__ */ jsx(Decor, {}),
+          Object.values(DESKS).filter((d) => d.room !== "ceo").map((d) => /* @__PURE__ */ jsx(Desk, { slot: d, state: desks[d.id], stress: LEVEL_RANK[levels[d.room]], player: d.id === "hr-0-1" }, d.id)),
+          /* @__PURE__ */ jsx(import_framer_motion6.AnimatePresence, { children: CAST.map((e) => {
+            const st = people[e.id];
+            if (st.status === "hidden" || st.status === "gone") return null;
+            return /* @__PURE__ */ jsx(Person, { emp: e, st, onArrive }, e.id);
+          }) }),
+          Object.keys(ROOMS).map((id) => /* @__PURE__ */ jsx(RoomLabel, { id, level: levels[id] }, id)),
+          /* @__PURE__ */ jsx("div", { className: "pointer-events-none absolute flex flex-col gap-1", style: { left: 664, top: 412, zIndex: 3001 }, children: /* @__PURE__ */ jsx(import_framer_motion6.AnimatePresence, { children: hrTasks.map((t) => /* @__PURE__ */ jsxs(
+            import_framer_motion6.motion.div,
+            {
+              layout: true,
+              initial: { opacity: 0, x: -12, scale: 0.9 },
+              animate: { opacity: t.muted ? 0.6 : 1, x: 0, scale: 1 },
+              exit: { opacity: 0, x: 12 },
+              className: `flex w-max items-center gap-1.5 rounded-md px-2 py-[3px] text-[11px] font-bold shadow-md ${t.muted ? "bg-slate-700/90 text-slate-300" : "bg-blue-600/95 text-white"}`,
+              children: [
+                /* @__PURE__ */ jsx("span", { children: t.icon }),
+                t.label
+              ]
+            },
+            t.id
+          )) }) }),
+          /* @__PURE__ */ jsx(import_framer_motion6.AnimatePresence, { children: fx.map((f) => {
+            const r = ROOMS[f.dept];
+            return /* @__PURE__ */ jsx(
+              import_framer_motion6.motion.div,
+              {
+                className: "pointer-events-none absolute text-[34px]",
+                style: { left: r.x + r.w / 2 - 18, top: r.y + r.h / 2 - 30, zIndex: 3002 },
+                initial: { opacity: 0, y: 20, scale: 0.5 },
+                animate: { opacity: [0, 1, 1, 0], y: -50, scale: 1.2 },
+                transition: { duration: 2.6 },
+                children: f.emoji
+              },
+              f.id
+            );
+          }) }),
+          /* @__PURE__ */ jsx(
+            "div",
+            {
+              className: "pointer-events-none absolute inset-0 rounded-2xl transition-opacity duration-1000",
+              style: { zIndex: 2990, background: "linear-gradient(180deg, rgba(40,30,110,.5), rgba(255,120,40,.25))", mixBlendMode: "multiply", opacity: evening }
+            }
+          )
+        ]
+      }
+    ) });
+  });
+
+  // src/App.tsx
+  function App() {
+    const g = useGame();
+    const hour = g.clock.minute / 60;
+    const evening = Math.round(Math.max(0, Math.min(1, (hour - 16.5) / 2.5)) * 10) / 10;
+    return /* @__PURE__ */ jsx(import_framer_motion7.MotionConfig, { reducedMotion: "user", children: /* @__PURE__ */ jsxs("div", { className: "relative h-full w-full select-none overflow-hidden bg-[radial-gradient(ellipse_at_center,#1e2536_0%,#0d111b_80%)] font-sans text-slate-100", children: [
+      /* @__PURE__ */ jsx("svg", { width: "0", height: "0", className: "absolute", children: /* @__PURE__ */ jsx("defs", { children: /* @__PURE__ */ jsxs("linearGradient", { id: "bodyShade", x1: "0", y1: "0", x2: "1", y2: "0", children: [
+        /* @__PURE__ */ jsx("stop", { offset: "0", stopColor: "#fff", stopOpacity: "0.12" }),
+        /* @__PURE__ */ jsx("stop", { offset: "0.6", stopColor: "#000", stopOpacity: "0" }),
+        /* @__PURE__ */ jsx("stop", { offset: "1", stopColor: "#000", stopOpacity: "0.18" })
+      ] }) }) }),
+      /* @__PURE__ */ jsx("div", { className: "absolute inset-x-0 bottom-0 top-14 sm:top-16", children: /* @__PURE__ */ jsx(
+        Office,
+        {
+          people: g.people,
+          desks: g.desks,
+          levels: g.levels,
+          hrTasks: g.hrTasks,
+          fx: g.fx,
+          camera: g.camera,
+          evening: g.phase === "playing" ? evening : 0,
+          onArrive: g.onArrive
+        }
+      ) }),
+      g.phase !== "intro" && /* @__PURE__ */ jsx(TopBar, { day: g.clock.day, minute: g.clock.minute, speed: g.speed, blocked: g.blocked && g.phase === "playing", fast: g.fast && g.phase === "playing", onSpeed: g.setSpeed }),
+      g.phase === "playing" && !g.dialog && /* @__PURE__ */ jsx(Legend, {}),
+      /* @__PURE__ */ jsx(Toasts, { toasts: g.toasts }),
+      /* @__PURE__ */ jsx(FastForwardOverlay, { show: g.fast && g.phase === "playing", day: g.clock.day }),
+      /* @__PURE__ */ jsx(import_framer_motion7.AnimatePresence, { children: g.dialog && /* @__PURE__ */ jsx(DialogPanel, { view: g.dialog, onChoose: g.choose, onContinue: g.proceed }, g.dialog.data.speakerId + g.dialog.data.text.length) }),
+      /* @__PURE__ */ jsx(import_framer_motion7.AnimatePresence, { children: g.phase === "intro" && /* @__PURE__ */ jsx(IntroScreen, { onStart: g.start }) }),
+      g.phase === "finale" && g.result && /* @__PURE__ */ jsx(Finale, { result: g.result, log: g.log, onRestart: g.restart })
+    ] }) });
+  }
+
+  // src/main.tsx
+  (0, import_client.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ jsx(App, {}));
+})();
+/*! Bundled license information:
+
+lucide-react/dist/esm/shared/src/utils.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/defaultAttributes.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/Icon.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/createLucideIcon.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/arrow-right.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/chevron-down.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/clipboard-list.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/clock.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/door-open.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/eye.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/fast-forward.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/graduation-cap.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/handshake.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/hourglass.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/message-circle.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/monitor.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/pause.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/play.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/rotate-ccw.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/search.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/shield-check.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/shuffle.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/sparkles.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/split.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/target.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/user-plus.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/icons/users.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+
+lucide-react/dist/esm/lucide-react.js:
+  (**
+   * @license lucide-react v0.460.0 - ISC
+   *
+   * This source code is licensed under the ISC license.
+   * See the LICENSE file in the root directory of this source tree.
+   *)
+*/
+
+</script>
+</body>
+</html>
